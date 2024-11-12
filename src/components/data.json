@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "category": "category1",
+    "author": "Author A",
+    "layer": "Layer 1",
+    "strategy": "Strategy X",
+    "image": "image1.jpg",
+    "title": "Card 1",
+    "description": "Description for Category 1",
+    "link": "https://example.com"
+  },
+  {
+    "id": 2,
+    "category": "category2",
+    "author": "Author B",
+    "layer": "Layer 2",
+    "strategy": "Strategy Y",
+    "image": "image2.jpg",
+    "title": "Card 2",
+    "description": "Description for Category 2",
+    "link": "https://example.com"
+  },
+  {
+    "id": 3,
+    "category": "category1",
+    "author": "Author A",
+    "layer": "Layer 1",
+    "strategy": "Strategy Z",
+    "image": "image3.jpg",
+    "title": "Card 3",
+    "description": "Another description for Category 1",
+    "link": "https://example.com"
+  }
+]
