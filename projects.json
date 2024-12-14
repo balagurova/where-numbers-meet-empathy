@@ -213,15 +213,11 @@
     "layers": {
       "Data layer": {
         "Sensations": ["Kinetic movement", "Colour"],
-        "Narrative": ["Humans behind the dots"],
-        "Behaviour": [],
-        "Context": []
+        "Narrative": ["Humans behind the dots"]
       },
       "Graph layer": {
         "Sensations": ["Colour", "Space", "Kinetic movement"],
-        "Narrative": ["Gradual reveal"],
-        "Behaviour": [],
-        "Context": []
+        "Narrative": ["Gradual reveal"]
       },
       "Story layer": {
         "Sensations": ["Imagery"],
@@ -231,9 +227,7 @@
           "A Singular Story",
           "Wording/phrasing",
           "Gradual reveal"
-        ],
-        "Behaviour": [],
-        "Context": []
+        ]
       }
     },
     "year": 2022,

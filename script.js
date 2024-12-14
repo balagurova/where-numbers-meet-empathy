@@ -1,13 +1,18 @@
 // Load JSON data
 d3.json('projects.json').then((data) => {
   // Define strategies for the four columns
-  const strategyCategories = ['Sensations', 'Narrative', 'Behavior', 'Context'];
+  const strategyCategories = [
+    'Sensations',
+    'Narrative',
+    'Behaviour',
+    'Context',
+  ];
 
   // Initialize a dictionary to store techniques grouped by strategies
   const techniquesByStrategy = {
     Sensations: new Set(),
     Narrative: new Set(),
-    Behavior: new Set(),
+    Behaviour: new Set(),
     Context: new Set(),
   };
 
@@ -115,7 +120,7 @@ d3.json('projects.json').then((data) => {
       .attr('href', '#')
       .text('Read more')
       .on('click', (event, d) => {
-        event.preventDefault(); // Prevent default link behavior
+        event.preventDefault(); // Prevent default link Behaviour
         openModal(d); // Pass the project data to the modal
       });
   }
