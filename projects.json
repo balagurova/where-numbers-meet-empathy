@@ -1,0 +1,952 @@
+[
+  {
+    "title": "Cut Short",
+    "image": "/assets/images/cut-short.png",
+    "link": "https://www.washingtonpost.com/health/interactive/2022/1-million-covid-deaths-us/?itid=ap_alyssafowers",
+    "authors": "Alyssa Fowers, Leslie Shapiro",
+    "published in": "The Washington Post",
+    "genres": ["Interactive"],
+    "topics": ["Epidemics and Pandemics"],
+    "layers": {
+      "Data layer": {
+        "Sensations": ["Graphic style"],
+        "Narrative": [
+          "Humans behind the dots",
+          "Individualised data",
+          "Sharing true life events",
+          "Wording/phrasing"
+        ]
+      },
+      "Graph layer": {
+        "Sensations": ["Colour", "Graphic style"],
+        "Narrative": ["Gradual reveal"]
+      },
+      "Story layer": {
+        "Sensations": ["Colour", "Graphic style"],
+        "Narrative": ["Gradual reveal", "Call to action", "Wording/phrasing"]
+      }
+    },
+    "year": 2022,
+    "description": "TBA"
+  },
+  {
+    "title": "Mass Exodus",
+    "image": "/assets/images/mass-exodus.png",
+    "link": "https://www.reuters.com/graphics/MYANMAR-ROHINGYA/010050XD232/",
+    "authors": "Christian Inton, Jin Wu, Simon Scarr, Weiyi Cai, Karishma Singh",
+    "published in": "Reuters",
+    "genres": ["Interactive"],
+    "topics": ["Mass Displacement"],
+    "layers": {
+      "Data layer": {
+        "Sensations": ["Imagery"],
+        "Context": ["3D"],
+        "Narrative": ["Humans behind the dots"]
+      },
+      "Graph layer": {
+        "Sensations": ["Space"],
+        "Narrative": ["Gradual reveal"]
+      },
+      "Story layer": {
+        "Sensations": ["Imagery"],
+        "Narrative": ["Sharing true life events", "Quating", "Wording/phrasing"]
+      }
+    },
+    "year": 2018,
+    "description": "TBA"
+  },
+  {
+    "title": "U.S. Gun Deaths",
+    "image": "/assets/images/us-gun-deaths.png",
+    "link": "https://guns.periscopic.com/",
+    "published in": "Periscopic",
+    "genres": ["Interactive"],
+    "topics": ["Criminal Violence"],
+    "layers": {
+      "Data layer": {
+        "Sensations": ["Kinetic movement", "Colour"],
+        "Narrative": ["Individualised data", "Humans behind the dots"]
+      },
+      "Graph layer": {
+        "Sensations": ["Colour", "Kinetic movement"],
+        "Narrative": ["Wording/phrasing", "Speeding up", "Gradual reveal"],
+        "Behaviour": ["Manipulate/operate"]
+      },
+      "Story layer": {
+        "Sensations": ["Colour"],
+        "Narrative": ["Sharing true life events"]
+      }
+    },
+    "year": 2013,
+    "description": "TBA"
+  },
+  {
+    "title": "An uncalculable Loss",
+    "image": "/assets/images/an-incalculable-loss.png",
+    "link": "https://www.nytimes.com/interactive/2020/05/24/us/us-coronavirus-deaths-100000.html?smid=tw-share",
+    "authors": "Dan Barry, Larry Buchanan, Clinton Cargill, Annie Daniel, Alain Delaquérière, Lazaro Gamio, Gabriel Gianordoli, Rich Harris, Barbara Harvey, John Haskins, Jon Huang, Simone Landon, Juliette Love, Grace Maalouf, Alex Leeds Matthews, Farah Mohamed, Steven Moity, Destinée-Charisse Royal, Matt Ruby and Eden Weingart",
+    "published in": "New York Times",
+    "genres": ["Interactive"],
+    "topics": ["Epidemics and Pandemics"],
+    "layers": {
+      "Data layer": {
+        "Sensations": ["Graphic style", "Shape"],
+        "Narrative": ["Humans behind the dots", "Individualised data"]
+      },
+      "Graph layer": {
+        "Sensations": ["Space"],
+        "Narrative": ["Gradual reveal", "Wording/phrasing"]
+      },
+      "Story layer": {
+        "Narrative": ["Sharing true life events", "Wording/phrasing"]
+      }
+    },
+    "year": 2020,
+    "description": "TBA"
+  },
+  {
+    "title": "Iran protests",
+    "image": "/assets/images/iran-protests.png",
+    "link": "https://www.behance.net/gallery/154164323/Iran-protests",
+    "authors": "Federica Fragapane",
+    "genres": ["Static image"],
+    "topics": ["Human Rights Abuse"],
+    "layers": {
+      "Data layer": {
+        "Sensations": ["Colour", "Shape"],
+        "Narrative": ["Humans behind the dots"]
+      },
+      "Graph layer": {
+        "Sensations": ["Colour", "Shape"],
+        "Narrative": ["Wording/phrasing", "Using a Metaphor", "Silent data"]
+      }
+    },
+    "year": 2022,
+    "description": "TBA"
+  },
+  {
+    "title": "A View On Despair",
+    "image": "/assets/images/a-view-on-despair.png",
+    "link": "https://www.studioterp.nl/a-view-on-despair-a-datavisualization-project-by-studio-terp/",
+    "authors": "Sonja Kuijpers",
+    "genres": ["Interactive"],
+    "topics": ["Public Health"],
+    "layers": {
+      "Data layer": {
+        "Sensations": ["Imagery"],
+        "Narrative": ["Humans behind the dots", "Using a Metaphor"]
+      },
+      "Graph layer": {
+        "Sensations": ["Imagery"],
+        "Narrative": ["Gradual reveal"]
+      },
+      "Story layer": {
+        "Narrative": ["Sharing true life events", "Breaking the fourth wall"]
+      }
+    },
+    "year": 2019,
+    "description": "TBA"
+  },
+  {
+    "title": "Awash in Grief",
+    "image": "/assets/images/awash-in-grief.png",
+    "link": "https://www.reuters.com/graphics/HEALTH-CORONAVIRUS/USA-CASUALTIES/lbpggbmrapq/",
+    "authors": "Ally J. Levine",
+    "published in": "Reuters",
+    "genres": ["Interactive"],
+    "topics": ["Epidemics and Pandemics"],
+    "layers": {
+      "Data layer": {
+        "Sensations": ["Imagery", "Graphic style"],
+        "Narrative": ["A Singular Story"]
+      },
+      "Graph layer": {
+        "Sensations": ["Imagery", "Graphic style"],
+        "Narrative": ["Gradual reveal"]
+      },
+      "Story layer": {
+        "Sensations": ["Imagery", "Graphic style", "Colour"],
+        "Narrative": ["Wording/phrasing", "Quating"]
+      }
+    },
+    "year": 2023,
+    "description": "TBA"
+  },
+  {
+    "title": "The mass arrest of Hong Kong’s opposition figures",
+    "image": "/assets/images/mass-arrest-hong-kong.png",
+    "link": "https://multimedia.scmp.com/infographics/news/hong-kong/article/3140438/national-security-law-arrests/index.html?src=social",
+    "published in": "South China Morning Post",
+    "authors": "Adolfo Arranz, Dennis Wong, Jeffie Lam",
+    "genres": ["Interactive"],
+    "topics": ["Human Rights Abuse"],
+    "layers": {
+      "Data layer": {
+        "Sensations": ["Imagery"],
+        "Narrative": ["Humans behind the dots", "Individualised data"]
+      },
+      "Graph layer": {
+        "Sensations": ["Kinetic movement"],
+        "Narrative": [
+          "Using a Metaphor",
+          "Sharing true life events",
+          "Gradual reveal"
+        ],
+        "Behaviour": ["Manipulate/operate"]
+      },
+      "Story layer": {
+        "Sensations": ["Imagery"],
+        "Narrative": ["Wording/phrasing"]
+      }
+    },
+    "year": 2021,
+    "description": "TBA"
+  },
+  {
+    "title": "How America Lost One Million People",
+    "image": "/assets/images/how-america-lost-one-million-people.png",
+    "link": "https://www.nytimes.com/interactive/2022/05/13/us/covid-deaths-us-one-million.html",
+    "authors": "Jeremy White, Amy Harmon, Danielle Ivory, Lauren Leatherby, Albert Sun and Sarah Almukhtar",
+    "published in": "New York Times",
+    "genres": ["Interactive"],
+    "topics": ["Epidemics and Pandemics"],
+    "layers": {
+      "Data layer": {
+        "Sensations": ["Kinetic movement", "Colour"],
+        "Narrative": ["Humans behind the dots"],
+        "Behaviour": [],
+        "Context": []
+      },
+      "Graph layer": {
+        "Sensations": ["Colour", "Space", "Kinetic movement"],
+        "Narrative": ["Gradual reveal"],
+        "Behaviour": [],
+        "Context": []
+      },
+      "Story layer": {
+        "Sensations": ["Imagery"],
+        "Narrative": [
+          "Sharing true life events",
+          "Quating",
+          "A Singular Story",
+          "Wording/phrasing",
+          "Gradual reveal"
+        ],
+        "Behaviour": [],
+        "Context": []
+      }
+    },
+    "year": 2022,
+    "description": "TBA"
+  },
+  {
+    "title": "The Great Wave",
+    "image": "/assets/images/the-great-wave.png",
+    "link": "https://www.grandeonda.it/en/",
+    "authors": "Davide Mancino, Federica Fragapane",
+    "genres": ["Interactive", "Video", "Static image"],
+    "topics": ["Epidemics and Pandemics"],
+    "layers": {
+      "Data layer": {
+        "Sensations": ["Colour", "Shape"],
+        "Narrative": ["Humans behind the dots"]
+      },
+      "Graph layer": {
+        "Sensations": ["Space"],
+        "Narrative": [
+          "Quating",
+          "Sharing true life events",
+          "A Singular Story",
+          "Wording/phrasing",
+          "Gradual reveal"
+        ]
+      },
+      "Story layer": {
+        "Sensations": ["Sound", "Imagery", "Colour", "Video"],
+        "Narrative": [
+          "Sharing true life events",
+          "Wording/phrasing",
+          "Wording/phrasing"
+        ]
+      }
+    },
+    "year": 2021,
+    "description": "TBA"
+  },
+  {
+    "title": "1,374 Days My life with long Covid",
+    "image": "/assets/images/1374-days-my-life-with-long-covid.png",
+    "link": "https://www.nytimes.com/interactive/2023/12/14/opinion/my-life-with-long-covid.html?unlocked_article_code=1.H00.7tDy.GH186wz4r6dl",
+    "authors": "Giorgia Lupi",
+    "published in": "New York Times",
+    "genres": ["Interactive"],
+    "topics": ["Epidemics and Pandemics"],
+    "layers": {
+      "Data layer": {
+        "Narrative": ["Humans behind the dots", "Individualised data"]
+      },
+      "Story layer": {
+        "Sensations": ["Graphic style"],
+        "Narrative": [
+          "Sharing true life events",
+          "A Singular Story",
+          "Quating",
+          "Wording/phrasing",
+          "Gradual reveal"
+        ]
+      }
+    },
+    "year": 2023,
+    "description": "TBA"
+  },
+  {
+    "title": "Fleeing Ukraine",
+    "image": "/assets/images/fleeing-ukraine.png",
+    "link": "https://www.reuters.com/graphics/UKRAINE-CRISIS/REFUGEES/dwvkrqzlnpm/",
+    "authors": "Dea Bankova, Chris Canipe",
+    "published in": "Reuters",
+    "genres": ["Interactive"],
+    "topics": ["Mass Displacement", "Armed Conflicts"],
+    "layers": {
+      "Data layer": {
+        "Narrative": [
+          "Humans behind the dots",
+          "Individualised data",
+          "Quating"
+        ]
+      },
+      "Graph layer": {
+        "Sensations": ["Kinetic movement", "Space"],
+        "Narrative": ["Gradual reveal", "Sharing true life events"]
+      },
+      "Story layer": {
+        "Narrative": ["Sharing true life events"]
+      }
+    },
+    "year": 2022,
+    "description": "TBA"
+  },
+  {
+    "title": "The Stories Behind a Line",
+    "image": "/assets/images/the-stories-begind-a-line.png",
+    "link": "http://www.storiesbehindaline.com/",
+    "authors": "Federica Fragapane, Alex Piacentini",
+    "genres": ["Interactive"],
+    "topics": ["Mass Displacement"],
+    "layers": {
+      "Data layer": {
+        "Sensations": ["Shape"],
+        "Narrative": ["Humans behind the dots", "Individualised data"]
+      },
+      "Graph layer": {
+        "Narrative": ["Sharing true life events", "Quating", "Wording/phrasing"]
+      },
+      "Story layer": {
+        "Narrative": ["Wording/phrasing"]
+      }
+    },
+    "year": 2017,
+    "description": "TBA"
+  },
+  {
+    "title": "The terrible numbers that grow with each mass shooting",
+    "image": "/assets/images/the-terrible-numbers-that-grows-with-each-mass-shooting.png",
+    "link": "https://www.washingtonpost.com/graphics/2018/national/mass-shootings-in-america/",
+    "published in": "The Washington Post",
+    "authors": "Bonnie Berkowitz, Chris Alcantara",
+    "genres": ["Interactive"],
+    "topics": ["Criminal Violence"],
+    "layers": {
+      "Data layer": {
+        "Sensations": ["Imagery"],
+        "Narrative": ["Humans behind the dots", "Individualised data"]
+      },
+      "Graph layer": {
+        "Narrative": [
+          "A Singular Story",
+          "Wording/phrasing",
+          "Sharing true life events",
+          "Gradual reveal"
+        ]
+      },
+      "Story layer": {
+        "Narrative": [
+          "Wording/phrasing",
+          "Sharing true life events",
+          "Gradual reveal"
+        ]
+      }
+    },
+    "year": 2016,
+    "description": "TBA"
+  },
+  {
+    "title": "Those Who Did Not Cross",
+    "image": "/assets/images/those-who-did-not-cross.png",
+    "link": "https://archive.org/details/LeviWesterveldCROSS2000x940",
+    "authors": "Levi Westerveld",
+    "genres": ["Static image"],
+    "topics": ["Mass Displacement"],
+    "layers": {
+      "Data layer": {
+        "Sensations": ["Colour"],
+        "Narrative": ["Humans behind the dots"]
+      },
+      "Graph layer": {
+        "Narrative": [
+          "A Singular Story",
+          "Wording/phrasing",
+          "Sharing true life events"
+        ]
+      }
+    },
+    "year": 2017,
+    "description": "TBA"
+  },
+  {
+    "title": "Gun Deaths In America",
+    "image": "/assets/images/those-who-did-not-cross.png",
+    "link": "https://fivethirtyeight.com/features/gun-deaths/",
+    "authors": "Ben Casselman, Matthew Conlen, Reuben Fischer-Baum",
+    "published in": "FiveThirtyEight",
+    "genres": ["Interactive"],
+    "topics": ["Criminal Violence"],
+    "layers": {
+      "Data layer": {
+        "Narrative": ["Humans behind the dots"]
+      },
+      "Story layer": {
+        "Narrative": ["Wording/phrasing", "Gradual reveal"]
+      }
+    },
+    "year": 2013,
+    "description": "TBA"
+  },
+  {
+    "title": "In America: Remember",
+    "image": "/assets/images/in-america-remember.png",
+    "link": "https://www.inamericaflags.org/",
+    "authors": "Suzanne Brennan Firstenberg",
+    "genres": ["Interactive", "Installation"],
+    "topics": ["Epidemics and Pandemics"],
+    "layers": {
+      "Data layer": {
+        "Sensations": ["Tangible material/texture"],
+        "Narrative": ["Humans behind the dots", "Individualised data"],
+        "Context": ["Situated place", "Physical world"]
+      },
+      "Graph layer": {
+        "Sensations": ["Space"],
+        "Narrative": ["Wording/phrasing", "Gradual reveal"],
+        "Behaviour": ["Walk/wander"],
+        "Context": ["Situated place", "Physical world"]
+      }
+    },
+    "year": 2022,
+    "description": "TBA"
+  },
+  {
+    "title": "COVID-19 spreading rates",
+    "image": "/assets/images/covid-19-spreading-rates.png",
+    "link": "https://web.archive.org/web/20210624123001/https://covidspreadingrates.org/",
+    "authors": "TULP Interactive",
+    "genres": ["Interactive"],
+    "topics": ["Epidemics and Pandemics"],
+    "layers": {
+      "Data layer": {
+        "Sensations": ["Colour", "Kinetic movement", "Sound"],
+        "Narrative": ["Humans behind the dots"]
+      },
+      "Graph layer": {
+        "Sensations": ["Colour"],
+        "Narrative": ["Wording/phrasing", "Statistical Framing"]
+      }
+    },
+    "year": 2022,
+    "description": "TBA"
+  },
+  {
+    "title": "Afghanistan20",
+    "image": "/assets/images/afghanistan20.png",
+    "link": "https://afghanistan20.emergency.it/en/",
+    "authors": "Accurat",
+    "genres": ["Interactive"],
+    "topics": ["Armed Conflicts"],
+    "layers": {
+      "Data layer": {
+        "Sensations": ["Colour"],
+        "Narrative": ["Humans behind the dots"]
+      },
+      "Graph layer": {
+        "Sensations": ["Colour"]
+      },
+      "Story layer": {
+        "Sensations": ["Imagery", "Colour"],
+        "Narrative": [
+          "Wording/phrasing",
+          "Sharing true life events",
+          "Gradual reveal"
+        ]
+      }
+    },
+    "year": 2022,
+    "description": "TBA"
+  },
+  {
+    "title": "3,121 desperate journeys Exposing a week of chaos under Trump's zero tolerance",
+    "image": "/assets/images/3121-desperate-journeys.png",
+    "link": "https://www.theguardian.com/us-news/ng-interactive/2018/oct/14/donald-trump-zero-tolerance-policy-special-investigation-immigrant-journeys",
+    "published in": "The Guardian",
+    "authors": "Olivia Solon, Julia Carrie Wong, Pamela Duncan, Margaret Katcher, Patrick Timmons, Sam Morris",
+    "genres": ["Interactive"],
+    "topics": ["Mass Displacement"],
+    "layers": {
+      "Data layer": {
+        "Sensations": ["Colour"],
+        "Narrative": ["Humans behind the dots"]
+      },
+      "Graph layer": {
+        "Sensations": ["Kinetic movement"]
+      },
+      "Story layer": {
+        "Sensations": ["Imagery"],
+        "Narrative": [
+          "Wording/phrasing",
+          "Sharing true life events",
+          "Quating",
+          "Gradual reveal"
+        ]
+      }
+    },
+    "year": 2019,
+    "description": "TBA"
+  },
+  {
+    "title": "The Fallen of WW2",
+    "image": "/assets/images/the-fallen.png",
+    "link": "",
+    "authors": "Neil Halloran",
+    "genres": ["Video", "Interactive"],
+    "topics": ["Armed Conflicts"],
+    "layers": {
+      "Data layer": {
+        "Sensations": ["Imagery"],
+        "Narrative": ["Humans behind the dots"]
+      },
+      "Graph layer": {
+        "Sensations": ["Kinetic movement", "Sound"],
+        "Narrative": ["Gradual reveal"]
+      },
+      "Story layer": {
+        "Sensations": ["Imagery", "Graphic style", "Voice"],
+        "Narrative": [
+          "Wording/phrasing",
+          "Sharing true life events",
+          "Breaking the fourth wall",
+          "Gradual reveal"
+        ]
+      }
+    },
+    "year": 2015,
+    "description": "TBA"
+  },
+  {
+    "title": "Abandoned at sea: The desperate journeys of Rohingya refugees",
+    "image": "/assets/images/abandoned-at-sea.png",
+    "link": "https://kontinentalist.com/stories/the-rohingya-in-myanmar-a-refugee-crisis-at-sea/",
+    "authors": "Kontinentalist",
+    "published in": "Kontinentalist",
+    "genres": ["Interactive"],
+    "topics": ["Mass Displacement"],
+    "layers": {
+      "Graph layer": {
+        "Sensations": ["Voice"],
+        "Narrative": ["Wording/phrasing", "Sharing true life events"]
+      },
+      "Story layer": {
+        "Sensations": ["Imagery", "Graphic style", "Video", "Sound"],
+        "Narrative": [
+          "Wording/phrasing",
+          "Sharing true life events",
+          "Call to action",
+          "Quating",
+          "Gradual reveal"
+        ]
+      }
+    },
+    "year": 2022,
+    "description": "TBA"
+  },
+  {
+    "title": "Blood Swept Lands and Seas of Red",
+    "image": "/assets/images/poppy-field.png",
+    "link": "https://www.hrp.org.uk/tower-of-london/history-and-stories/tower-of-london-remembers/#gs.i0cvua",
+    "authors": "Paul Cummins, Tom Piper",
+    "genres": ["Installation", "Event"],
+    "topics": ["Armed Conflicts"],
+    "layers": {
+      "Data layer": {
+        "Sensations": ["Tangible material/texture", "Shape"],
+        "Narrative": ["Using a Metaphor", "Humans behind the dots"],
+        "Context": ["Physical world"],
+        "Behaviour": ["Manipulate/operate"]
+      },
+      "Graph layer": {
+        "Sensations": ["Space"],
+        "Narrative": ["Gradual reveal", "Using a Metaphor"],
+        "Context": ["Physical world"],
+        "Behaviour": ["Walk/wander"]
+      },
+      "Story layer": {
+        "Sensations": ["Voice"],
+        "Narrative": [
+          "Wording/phrasing",
+          "Sharing true life events",
+          "Call to action",
+          "Individualised data"
+        ],
+        "Context": ["Physical world"],
+        "Behaviour": ["Participate"]
+      }
+    },
+    "year": 2018,
+    "description": "TBA"
+  },
+  {
+    "title": "Story Line: messages from a pandemic",
+    "image": "/assets/images/story-line.png",
+    "link": "https://www.sbs.com.au/storyline/",
+    "authors": "SBS Labs",
+    "genres": ["Interactive"],
+    "topics": ["Epidemics and Pandemics"],
+    "layers": {
+      "Data layer": {
+        "Sensations": ["Voice"],
+        "Narrative": ["Humans behind the dots", "Individualised data"]
+      },
+      "Story layer": {
+        "Sensations": ["Space"],
+        "Narrative": ["Using a Metaphor"],
+        "Context": ["3D"],
+        "Behaviour": ["Manipulate/operate"]
+      }
+    },
+    "year": 2020,
+    "description": "TBA"
+  },
+  {
+    "title": "The Stolpersteine Project",
+    "image": "/assets/images/stolpersteine.png",
+    "link": "https://www.stolpersteine.eu/en/home",
+    "authors": "Gunter Demnig",
+    "genres": ["Installation"],
+    "topics": ["Armed Conflicts"],
+    "layers": {
+      "Data layer": {
+        "Sensations": ["Tangible material/texture"],
+        "Narrative": ["Humans behind the dots", "Individualised data"],
+        "Behaviour": ["Manipulate/operate", "Walk/wander"],
+        "Context": ["Physical world", "Situated place"]
+      }
+    },
+    "year": 2003,
+    "description": "TBA"
+  },
+  {
+    "title": "Memorial Exhibition: In Memoriam",
+    "image": "/assets/images/9-11.png",
+    "link": "https://www.stolpersteine.eu/en/home",
+    "authors": "Gunter Demnig",
+    "genres": ["Installation"],
+    "topics": ["Acts of Terror"],
+    "layers": {
+      "Data layer": {
+        "Sensations": ["Tangible material/texture", "Imagery"],
+        "Narrative": ["Humans behind the dots", "Individualised data"],
+        "Context": ["Physical world"]
+      },
+      "Story layer": {
+        "Sensations": ["Voice", "Imagery", "Tangible material/texture"],
+        "Narrative": ["Wording/phrasing", "Sharing true life events"],
+        "Behaviour": ["Walk/wander"],
+        "Context": ["Physical world", "Situated place"]
+      }
+    },
+    "year": 2014,
+    "description": "TBA"
+  },
+  {
+    "title": "No epicentro (At the epicenter)",
+    "image": "/assets/images/at-the-epicenter.png",
+    "link": "https://noepicentro.news/en/",
+    "authors": "Agência Lupa",
+    "genres": ["Interactive"],
+    "topics": ["Epidemics and Pandemics"],
+    "layers": {
+      "Data layer": {
+        "Narrative": ["Humans behind the dots", "Breaking the fourth wall"]
+      },
+      "Story layer": {
+        "Sensations": ["Map"],
+        "Narrative": [
+          "Wording/phrasing",
+          "Sharing true life events",
+          "Breaking the fourth wall",
+          "Gradual reveal"
+        ]
+      }
+    },
+    "year": 2014,
+    "description": "TBA"
+  },
+  {
+    "title": "The Pace of Death",
+    "image": "/assets/images/at-the-epicenter.png",
+    "link": "https://www.reuters.com/graphics/HEALTH-CORONAVIRUS/DEATHS/xlbpgobgapq/",
+    "published in": "Reuters",
+    "authors": "Manas Sharma, Simon Scarr, Gurman Bhatia, Cate Cadell, Jane Wardell",
+    "genres": ["Interactive"],
+    "topics": ["Epidemics and Pandemics"],
+    "layers": {
+      "Data layer": {
+        "Narrative": ["Humans behind the dots"]
+      },
+      "Graph layer": {
+        "Sensations": ["Kinetic movement"],
+        "Narrative": ["Gradual reveal", "Wording/phrasing"]
+      },
+      "Story layer": {
+        "Sensations": ["Kinetic movement", "Imagery"],
+        "Narrative": [
+          "Wording/phrasing",
+          "Sharing true life events",
+          "Statistical Framing"
+        ]
+      }
+    },
+    "year": 2021,
+    "description": "TBA"
+  },
+  {
+    "title": "Syrian Journey: Choose your own escape route",
+    "image": "/assets/images/syrian-journey.png",
+    "link": "https://www.bbc.com/news/world-middle-east-32057601",
+    "published in": "BBC",
+    "authors": "BBC",
+    "genres": ["Interactive"],
+    "topics": ["Mass Displacement"],
+    "layers": {
+      "Data layer": {
+        "Narrative": ["A Singular Story"]
+      },
+      "Story layer": {
+        "Sensations": ["Graphic style", "Imagery"],
+        "Narrative": [
+          "Incorporating the audience",
+          "Wording/phrasing",
+          "Breaking the fourth wall"
+        ],
+        "Behaviour": ["Play"]
+      }
+    },
+    "year": 2015,
+    "description": "TBA"
+  },
+  {
+    "title": " Simon Scarr",
+    "image": "/assets/images/iraqs-bloody-toll.png",
+    "link": "https://www.simonscarr.com/iraqs-bloody-toll",
+    "published in": "South China Morning Post",
+    "authors": "Simon Scarr",
+    "genres": ["Static image"],
+    "topics": ["Armed Conflicts"],
+    "layers": {
+      "Data layer": {
+        "Sensations": ["Colour"]
+      },
+      "Graph layer": {
+        "Sensations": ["Shape"],
+        "Narrative": ["Wording/phrasing", "Sharing true life events"]
+      }
+    },
+    "year": 2011,
+    "description": "TBA"
+  },
+  {
+    "title": "Simulated Dendrochronology of U.S. Immigration 1790-2016",
+    "image": "/assets/images/us-immigration.png",
+    "link": "https://www.informationisbeautifulawards.com/showcase/3312-simulated-dendrochronology-of-u-s-immigration-1790-2016",
+    "authors": "National Geographic, Northeastern University",
+    "genres": ["Static image", "Video"],
+    "topics": ["Mass Displacement"],
+    "layers": {
+      "Data layer": {
+        "Narrative": ["Humans behind the dots"]
+      },
+      "Graph layer": {
+        "Sensations": ["Shape"],
+        "Narrative": ["Using a Metaphor"]
+      }
+    },
+    "year": 2018,
+    "description": "TBA"
+  },
+  {
+    "title": "Twist Out Cancer",
+    "image": "/assets/images/twist-out-cancer.png",
+    "link": "https://www.pentagram.com/work/twist-out-cancer/story",
+    "authors": "Giorgia Lupi",
+    "genres": ["Installation"],
+    "topics": ["Public Health"],
+    "layers": {
+      "Data layer": {
+        "Sensations": ["Colour", "Graphic style", "Shape"],
+        "Narrative": ["Individualised data", "Humans behind the dots"]
+      },
+      "Graph layer": {
+        "Narrative": ["Sharing true life events", "Wording/phrasing"],
+        "Behaviour": ["Walk/wander"],
+        "Context": ["Physical world"]
+      }
+    },
+    "year": 2022,
+    "description": "TBA"
+  },
+  {
+    "title": "Together at last: A migrant family’s arduous path to reunification",
+    "image": "/assets/images/together-at-last.png",
+    "link": "https://www.reuters.com/graphics/USA-IMMIGRATION/REUNIFICATION/byprjxlnzpe/",
+    "published in": "Reuters",
+    "authors": "Mica Rosenberg, Ally J. Levine",
+    "genres": ["Interactive"],
+    "topics": ["Mass Displacement"],
+    "layers": {
+      "Data layer": {
+        "Sensations": ["Graphic style", "Imagery"],
+        "Narrative": ["Humans behind the dots"]
+      },
+      "Graph layer": {
+        "Narrative": [
+          "Sharing true life events",
+          "Gradual reveal",
+          "Wording/phrasing"
+        ]
+      },
+      "Story layer": {
+        "Sensations": ["Imagery"],
+        "Narrative": ["A Singular Story", "Sharing true life events"]
+      }
+    },
+    "year": 2022,
+    "description": "TBA"
+  },
+  {
+    "title": "How 450,000 Coronavirus Deaths Added Up",
+    "image": "/assets/images/how-450000-coronavirus-deaths-added-up.png",
+    "link": "https://www.nytimes.com/interactive/2021/01/27/us/us-coronavirus-deaths-rate.html",
+    "published in": "New York Times",
+    "authors": "Lazaro Gamio, Lauren Leatherby",
+    "genres": ["Interactive"],
+    "topics": ["Epidemics and Pandemics"],
+    "layers": {
+      "Data layer": {
+        "Narrative": ["Humans behind the dots"]
+      },
+      "Graph layer": {
+        "Narrative": [
+          "Gradual reveal",
+          "Wording/phrasing",
+          "Sharing true life events",
+          "Statistical Framing"
+        ]
+      },
+      "Story layer": {
+        "Narrative": ["Wording/phrasing"]
+      }
+    },
+    "year": 2015,
+    "description": "TBA"
+  },
+  {
+    "title": "Field of Commemoration",
+    "image": "/assets/images/field-of-commemoration.png",
+    "link": "https://www.poppyfield.org/",
+    "authors": "Valentina D'Efilippo",
+    "genres": ["Interactive"],
+    "topics": ["Armed Conflicts"],
+    "layers": {
+      "Data layer": {
+        "Sensations": ["Imagery", "Colour"],
+        "Narrative": ["Using a Metaphor"]
+      },
+      "Story layer": {
+        "Sensations": ["Imagery", "Colour"],
+        "Narrative": ["Gradual reveal", "Sharing true life events"]
+      }
+    },
+    "year": 2013,
+    "description": "TBA"
+  },
+  {
+    "title": "Refugee Project",
+    "image": "/assets/images/refugee-project.png",
+    "link": "https://www.therefugeeproject.org/#/2023",
+    "authors": "Hyperakt, Ekene Ijeoma",
+    "genres": ["Interactive"],
+    "topics": ["Mass Displacement"],
+    "layers": {
+      "Data layer": {
+        "Sensations": ["Kinetic movement"]
+      },
+      "Story layer": {
+        "Sensations": ["Imagery"],
+        "Narrative": ["Sharing true life events", "A Singular Story"]
+      }
+    },
+    "year": 2014,
+    "description": "TBA"
+  },
+  {
+    "title": "Refugee Project",
+    "image": "/assets/images/refugee-project.png",
+    "link": "https://www.therefugeeproject.org/#/2023",
+    "authors": "Hyperakt, Ekene Ijeoma",
+    "genres": ["Interactive"],
+    "topics": ["Mass Displacement"],
+    "layers": {
+      "Data layer": {
+        "Sensations": ["Kinetic movement"]
+      },
+      "Story layer": {
+        "Sensations": ["Imagery"],
+        "Narrative": ["Sharing true life events", "A Singular Story"]
+      }
+    },
+    "year": 2014,
+    "description": "TBA"
+  },
+  {
+    "title": "A Song of Crowns and Tears",
+    "image": "/assets/images/refugee-project.png",
+    "link": "https://www.youtube.com/watch?v=DqfrOPs2pKM",
+    "authors": "Simon Huwiler",
+    "genres": ["Video"],
+    "topics": ["Epidemics and Pandemics"],
+    "layers": {
+      "Data layer": {
+        "Sensations": ["Kinetic movement", "Sound"],
+        "Narrative": ["Humans behind the dots"]
+      },
+      "Graph layer": {
+        "Sensations": ["Kinetic movement"],
+        "Narrative": [
+          "Gradual reveal",
+          "Wording/phrasing",
+          "Sharing true life events"
+        ]
+      }
+    },
+    "year": 2022,
+    "description": "TBA"
+  }
+]

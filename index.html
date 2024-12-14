@@ -1,13 +1,72 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="/assets/scripts/script.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <title>Document</title>
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <div class="hover-text"></div>
+    <div class="home__header">
+      <div class="nav">
+        <a href="#" class="button-with-brackets">add a project</a>
+        <a href="#" class="button-with-brackets">methodology</a>
+      </div>
+      <div class="container container--default">
+        <h1>
+          <div class="site-title home__site-title light hover-effect">
+            <span>Where numbers </span>
+          </div>
+          <div class="site-title home__site-title">
+            <span>meet </span>
+            <span class="italic">empathy</span>
+          </div>
+        </h1>
+      </div>
+      <div clas="grid"></div>
+    </div>
+
+    <div class="grid">
+      <div id="techniques-sensations" class="filter-list">
+        <h3>Sensations</h3>
+        <ul></ul>
+      </div>
+      <div id="techniques-narrative" class="filter-list">
+        <h3>Narrative</h3>
+        <ul></ul>
+      </div>
+      <div id="techniques-behaviour" class="filter-list">
+        <h3>Behaviour</h3>
+        <ul></ul>
+      </div>
+      <div id="techniques-context" class="filter-list">
+        <h3>Context</h3>
+        <ul></ul>
+      </div>
+    </div>
+
+    <div class="cards" id="project-gallery"></div>
+    <footer>Any project in mind?</footer>
+
+    <div id="modal" class="modal">
+      <span class="close-button">&times;</span>
+      <div class="modal-content">
+        <div class="modal-body">
+          <!-- Content will be dynamically added here -->
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
   </body>
 </html>
