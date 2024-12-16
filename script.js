@@ -32,6 +32,24 @@ d3.json('projects.json').then((data) => {
     });
   });
 
+  // Filter projects based on selected filters
+  function applyFilters() {
+    const filteredProjects = data.filter((project) => {
+      return Object.entries(selectedFilters).every(([strategy, techniques]) => {
+        // Ensure all selected techniques in this strategy match
+        return Object.values(project.layers || {}).some((layer) => {
+          const projectTechniques = layer[strategy] || [];
+          return Array.from(techniques).every((technique) =>
+            projectTechniques.includes(technique)
+          );
+        });
+      });
+    });
+
+    // Render filtered projects
+    renderProjects(filteredProjects);
+  }
+
   // Convert Sets to Arrays for easier rendering
   for (const strategy in techniquesByStrategy) {
     techniquesByStrategy[strategy] = Array.from(techniquesByStrategy[strategy]);
@@ -96,11 +114,46 @@ d3.json('projects.json').then((data) => {
     // Add title
     cards.append('h3').text((d) => d.title);
 
-    // Add authors
-    cards
-      .append('p')
-      .attr('class', 'authors')
-      .text((d) => `by ${d.authors}`);
+    // // Add authors
+    // cards
+    //   .append('p')
+    //   .attr('class', 'authors')
+    //   .text((d) => `by ${d.authors}`);
+
+    cards.each(function (d) {
+      // Create a container for chips
+      const chipContainer = d3
+        .select(this)
+        .append('div')
+        .attr('class', 'technique-chips');
+
+      // Get all techniques and limit to the first 7
+      let allTechniques = [];
+      Object.entries(d.layers || {}).forEach(([strategy, techniques]) => {
+        Object.entries(techniques || {}).forEach(
+          ([strategyName, techniqueList]) => {
+            allTechniques = allTechniques.concat(techniqueList);
+          }
+        );
+      });
+
+      // Add first 7 techniques as chips
+      allTechniques.slice(0, 5).forEach((technique) => {
+        chipContainer.append('span').attr('class', 'tag').text(technique);
+      });
+
+      // If there are more than 7 techniques, add a "more" chip
+      if (allTechniques.length > 5) {
+        chipContainer
+          .append('span')
+          .attr('class', 'tag more')
+          .text(`+${allTechniques.length - 5}`)
+          .on('click', () => {
+            // Show the full list in the modal when the "more" tag is clicked
+            openModal(d);
+          });
+      }
+    });
 
     // Add container for links
     const linkContainer = cards.append('div').attr('class', 'link-container');
@@ -123,24 +176,8 @@ d3.json('projects.json').then((data) => {
         event.preventDefault(); // Prevent default link Behaviour
         openModal(d); // Pass the project data to the modal
       });
-  }
 
-  // Filter projects based on selected filters
-  function applyFilters() {
-    const filteredProjects = data.filter((project) => {
-      return Object.entries(selectedFilters).every(([strategy, techniques]) => {
-        // Ensure all selected techniques in this strategy match
-        return Object.values(project.layers || {}).some((layer) => {
-          const projectTechniques = layer[strategy] || [];
-          return Array.from(techniques).every((technique) =>
-            projectTechniques.includes(technique)
-          );
-        });
-      });
-    });
-
-    // Render filtered projects
-    renderProjects(filteredProjects);
+    // Add chips for techniques
   }
 
   // Modal logic (unchanged)
@@ -163,6 +200,17 @@ d3.json('projects.json').then((data) => {
       modalContent.append('h2').text(project.title);
       modalContent.append('p').text(project.description);
 
+      // Add full list of techniques in modal
+      const fullTechniqueList = project.layers
+        ? Object.values(project.layers).flatMap((layer) =>
+            Object.values(layer).flatMap((techniques) => techniques)
+          )
+        : [];
+      modalContent.append('h3').text('Full Techniques List');
+      fullTechniqueList.forEach((technique) => {
+        modalContent.append('span').attr('class', 'tag').text(technique);
+      });
+
       modal.style('display', 'flex'); // Ensure modal becomes visible
     }
 
@@ -177,4 +225,43 @@ d3.json('projects.json').then((data) => {
   // Populate techniques and render all projects initially
   populateColumns();
   renderProjects(data);
+
+  // Create the cursor dot
+  // Create the cursor dot
+  const cursorDot = document.createElement('div');
+  cursorDot.classList.add('cursor-dot');
+  document.body.appendChild(cursorDot);
+
+  // Select the target div
+  const targetDiv = document.getElementById('empathy');
+
+  // Update cursor dot position
+  document.addEventListener('mousemove', (e) => {
+    cursorDot.style.left = `${e.clientX}px`;
+    cursorDot.style.top = `${e.clientY}px`;
+
+    // Check if cursor is over the target div
+    const rect = targetDiv.getBoundingClientRect();
+    const isInside =
+      e.clientX >= rect.left &&
+      e.clientX <= rect.right &&
+      e.clientY >= rect.top &&
+      e.clientY <= rect.bottom;
+
+    if (isInside) {
+      cursorDot.classList.add('blurred');
+    } else {
+      cursorDot.classList.remove('blurred');
+    }
+  });
+
+  // Add blur effect on click
+  document.addEventListener('mousedown', () => {
+    cursorDot.classList.add('blurred');
+  });
+
+  // Remove blur effect on mouse release
+  document.addEventListener('mouseup', () => {
+    cursorDot.classList.remove('blurred');
+  });
 });

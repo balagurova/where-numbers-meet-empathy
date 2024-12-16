@@ -9,21 +9,20 @@
     "topics": ["Epidemics and Pandemics"],
     "layers": {
       "Data layer": {
-        "Sensations": ["Graphic style"],
+        "Sensations": ["Handcrafted style", "One Element, One Life"],
         "Narrative": [
-          "Humans behind the dots",
-          "Individualised data",
-          "Sharing true life events",
-          "Wording/phrasing"
+          "Data with a name",
+          "Real-Life Story in Focus",
+          "Human-Centric Language"
         ]
       },
       "Graph layer": {
-        "Sensations": ["Colour", "Graphic style"],
+        "Sensations": ["Handcrafted style"],
         "Narrative": ["Gradual reveal"]
       },
       "Story layer": {
-        "Sensations": ["Colour", "Graphic style"],
-        "Narrative": ["Gradual reveal", "Call to action", "Wording/phrasing"]
+        "Sensations": ["Handcrafted style"],
+        "Narrative": ["Gradual reveal", "Human-Centric Language"]
       }
     },
     "year": 2022,
@@ -39,17 +38,22 @@
     "topics": ["Mass Displacement"],
     "layers": {
       "Data layer": {
-        "Sensations": ["Imagery"],
-        "Context": ["3D"],
-        "Narrative": ["Humans behind the dots"]
+        "Sensations": [
+          "True-Life Imagery",
+          "Data with a Human Face",
+          "One Element, One Life"
+        ],
+        "Context": ["3D"]
       },
       "Graph layer": {
-        "Sensations": ["Space"],
         "Narrative": ["Gradual reveal"]
       },
       "Story layer": {
-        "Sensations": ["Imagery"],
-        "Narrative": ["Sharing true life events", "Quating", "Wording/phrasing"]
+        "Narrative": [
+          "Real-Life Story in Focus",
+          "Quating",
+          "Human-Centric Language"
+        ]
       }
     },
     "year": 2018,
@@ -64,17 +68,18 @@
     "topics": ["Criminal Violence"],
     "layers": {
       "Data layer": {
-        "Sensations": ["Kinetic movement", "Colour"],
-        "Narrative": ["Individualised data", "Humans behind the dots"]
+        "Narrative": ["Data with a name", "One Element, One Life"]
       },
       "Graph layer": {
-        "Sensations": ["Colour", "Kinetic movement"],
-        "Narrative": ["Wording/phrasing", "Speeding up", "Gradual reveal"],
-        "Behaviour": ["Manipulate/operate"]
+        "Narrative": [
+          "Human-Centric Language",
+          "Speeding up",
+          "Gradual reveal"
+        ],
+        "Behaviour": ["Interacting with Data"]
       },
       "Story layer": {
-        "Sensations": ["Colour"],
-        "Narrative": ["Sharing true life events"]
+        "Narrative": ["Real-Life Story in Focus"]
       }
     },
     "year": 2013,
@@ -90,15 +95,18 @@
     "topics": ["Epidemics and Pandemics"],
     "layers": {
       "Data layer": {
-        "Sensations": ["Graphic style", "Shape"],
-        "Narrative": ["Humans behind the dots", "Individualised data"]
+        "Sensations": [
+          "Handcrafted style",
+          "Visual Metaphor",
+          "One Element, One Life"
+        ],
+        "Narrative": ["Data with a name"]
       },
       "Graph layer": {
-        "Sensations": ["Space"],
-        "Narrative": ["Gradual reveal", "Wording/phrasing"]
+        "Narrative": ["Gradual reveal", "Human-Centric Language"]
       },
       "Story layer": {
-        "Narrative": ["Sharing true life events", "Wording/phrasing"]
+        "Narrative": ["Real-Life Story in Focus", "Human-Centric Language"]
       }
     },
     "year": 2020,
@@ -113,12 +121,11 @@
     "topics": ["Human Rights Abuse"],
     "layers": {
       "Data layer": {
-        "Sensations": ["Colour", "Shape"],
-        "Narrative": ["Humans behind the dots"]
+        "Sensations": ["Organic shape", "One Element, One Life"]
       },
       "Graph layer": {
-        "Sensations": ["Colour", "Shape"],
-        "Narrative": ["Wording/phrasing", "Using a Metaphor", "Silent data"]
+        "Sensations": ["Visual Metaphor"],
+        "Narrative": ["Human-Centric Language"]
       }
     },
     "year": 2022,
@@ -133,15 +140,13 @@
     "topics": ["Public Health"],
     "layers": {
       "Data layer": {
-        "Sensations": ["Imagery"],
-        "Narrative": ["Humans behind the dots", "Using a Metaphor"]
+        "Sensations": ["Visual Metaphor", "One Element, One Life"]
       },
       "Graph layer": {
-        "Sensations": ["Imagery"],
         "Narrative": ["Gradual reveal"]
       },
       "Story layer": {
-        "Narrative": ["Sharing true life events", "Breaking the fourth wall"]
+        "Narrative": ["Real-Life Story in Focus", "Breaking the fourth wall"]
       }
     },
     "year": 2019,
@@ -157,16 +162,16 @@
     "topics": ["Epidemics and Pandemics"],
     "layers": {
       "Data layer": {
-        "Sensations": ["Imagery", "Graphic style"],
-        "Narrative": ["A Singular Story"]
+        "Sensations": ["Handcrafted style"],
+        "Narrative": ["Real-Life Story in Focus"]
       },
       "Graph layer": {
-        "Sensations": ["Imagery", "Graphic style"],
+        "Sensations": ["Organic shape", "Handcrafted style"],
         "Narrative": ["Gradual reveal"]
       },
       "Story layer": {
-        "Sensations": ["Imagery", "Graphic style", "Colour"],
-        "Narrative": ["Wording/phrasing", "Quating"]
+        "Sensations": ["Handcrafted style", "Feeling through colour"],
+        "Narrative": ["Human-Centric Language", "Quating"]
       }
     },
     "year": 2023,
@@ -182,21 +187,15 @@
     "topics": ["Human Rights Abuse"],
     "layers": {
       "Data layer": {
-        "Sensations": ["Imagery"],
-        "Narrative": ["Humans behind the dots", "Individualised data"]
+        "Sensations": ["Data with a Human Face", "One Element, One Life"],
+        "Narrative": ["Data with a name"]
       },
       "Graph layer": {
-        "Sensations": ["Kinetic movement"],
-        "Narrative": [
-          "Using a Metaphor",
-          "Sharing true life events",
-          "Gradual reveal"
-        ],
-        "Behaviour": ["Manipulate/operate"]
+        "Narrative": ["Real-Life Story in Focus", "Gradual reveal"],
+        "Behaviour": ["Interacting with Data"]
       },
       "Story layer": {
-        "Sensations": ["Imagery"],
-        "Narrative": ["Wording/phrasing"]
+        "Narrative": ["Human-Centric Language"]
       }
     },
     "year": 2021,
@@ -212,20 +211,18 @@
     "topics": ["Epidemics and Pandemics"],
     "layers": {
       "Data layer": {
-        "Sensations": ["Kinetic movement", "Colour"],
-        "Narrative": ["Humans behind the dots"]
+        "Sensations": ["One Element, One Life"]
       },
       "Graph layer": {
-        "Sensations": ["Colour", "Space", "Kinetic movement"],
         "Narrative": ["Gradual reveal"]
       },
       "Story layer": {
-        "Sensations": ["Imagery"],
+        "Sensations": ["True-Life Imagery"],
         "Narrative": [
-          "Sharing true life events",
+          "Real-Life Story in Focus",
           "Quating",
-          "A Singular Story",
-          "Wording/phrasing",
+          "Real-Life Story in Focus",
+          "Human-Centric Language",
           "Gradual reveal"
         ]
       }
@@ -242,25 +239,27 @@
     "topics": ["Epidemics and Pandemics"],
     "layers": {
       "Data layer": {
-        "Sensations": ["Colour", "Shape"],
-        "Narrative": ["Humans behind the dots"]
+        "Sensations": ["Feeling through colour", "Organic shape"]
       },
       "Graph layer": {
-        "Sensations": ["Space"],
         "Narrative": [
           "Quating",
-          "Sharing true life events",
-          "A Singular Story",
-          "Wording/phrasing",
+          "Real-Life Story in Focus",
+          "Real-Life Story in Focus",
+          "Human-Centric Language",
           "Gradual reveal"
         ]
       },
       "Story layer": {
-        "Sensations": ["Sound", "Imagery", "Colour", "Video"],
+        "Sensations": [
+          "Sound metaphor",
+          "Visual Metaphor",
+          "Feeling through colour"
+        ],
         "Narrative": [
-          "Sharing true life events",
-          "Wording/phrasing",
-          "Wording/phrasing"
+          "Real-Life Story in Focus",
+          "Human-Centric Language",
+          "Human-Centric Language"
         ]
       }
     },
@@ -277,15 +276,16 @@
     "topics": ["Epidemics and Pandemics"],
     "layers": {
       "Data layer": {
-        "Narrative": ["Humans behind the dots", "Individualised data"]
+        "Sensations": ["One Element, One Life"],
+        "Narrative": ["Data with a name"]
       },
       "Story layer": {
-        "Sensations": ["Graphic style"],
+        "Sensations": ["Handcrafted style"],
         "Narrative": [
-          "Sharing true life events",
-          "A Singular Story",
+          "Real-Life Story in Focus",
+          "Real-Life Story in Focus",
           "Quating",
-          "Wording/phrasing",
+          "Human-Centric Language",
           "Gradual reveal"
         ]
       }
@@ -303,18 +303,14 @@
     "topics": ["Mass Displacement", "Armed Conflicts"],
     "layers": {
       "Data layer": {
-        "Narrative": [
-          "Humans behind the dots",
-          "Individualised data",
-          "Quating"
-        ]
+        "Sensations": ["One Element, One Life"],
+        "Narrative": ["Data with a name", "Quating"]
       },
       "Graph layer": {
-        "Sensations": ["Kinetic movement", "Space"],
-        "Narrative": ["Gradual reveal", "Sharing true life events"]
+        "Narrative": ["Gradual reveal", "Real-Life Story in Focus"]
       },
       "Story layer": {
-        "Narrative": ["Sharing true life events"]
+        "Narrative": ["Real-Life Story in Focus"]
       }
     },
     "year": 2022,
@@ -329,14 +325,18 @@
     "topics": ["Mass Displacement"],
     "layers": {
       "Data layer": {
-        "Sensations": ["Shape"],
-        "Narrative": ["Humans behind the dots", "Individualised data"]
+        "Sensations": ["Visual Metaphor", "One Element, One Life"],
+        "Narrative": ["Data with a name"]
       },
       "Graph layer": {
-        "Narrative": ["Sharing true life events", "Quating", "Wording/phrasing"]
+        "Narrative": [
+          "Real-Life Story in Focus",
+          "Quating",
+          "Human-Centric Language"
+        ]
       },
       "Story layer": {
-        "Narrative": ["Wording/phrasing"]
+        "Narrative": ["Human-Centric Language"]
       }
     },
     "year": 2017,
@@ -352,21 +352,21 @@
     "topics": ["Criminal Violence"],
     "layers": {
       "Data layer": {
-        "Sensations": ["Imagery"],
-        "Narrative": ["Humans behind the dots", "Individualised data"]
+        "Sensations": ["Visual Metaphor", "One Element, One Life"],
+        "Narrative": ["Data with a name"]
       },
       "Graph layer": {
         "Narrative": [
-          "A Singular Story",
-          "Wording/phrasing",
-          "Sharing true life events",
+          "Real-Life Story in Focus",
+          "Human-Centric Language",
+          "Real-Life Story in Focus",
           "Gradual reveal"
         ]
       },
       "Story layer": {
         "Narrative": [
-          "Wording/phrasing",
-          "Sharing true life events",
+          "Human-Centric Language",
+          "Real-Life Story in Focus",
           "Gradual reveal"
         ]
       }
@@ -383,14 +383,13 @@
     "topics": ["Mass Displacement"],
     "layers": {
       "Data layer": {
-        "Sensations": ["Colour"],
-        "Narrative": ["Humans behind the dots"]
+        "Sensations": ["Feeling through colour", "One Element, One Life"]
       },
       "Graph layer": {
         "Narrative": [
-          "A Singular Story",
-          "Wording/phrasing",
-          "Sharing true life events"
+          "Real-Life Story in Focus",
+          "Human-Centric Language",
+          "Real-Life Story in Focus"
         ]
       }
     },
@@ -407,10 +406,10 @@
     "topics": ["Criminal Violence"],
     "layers": {
       "Data layer": {
-        "Narrative": ["Humans behind the dots"]
+        "Sensations": ["One Element, One Life"]
       },
       "Story layer": {
-        "Narrative": ["Wording/phrasing", "Gradual reveal"]
+        "Narrative": ["Human-Centric Language", "Gradual reveal"]
       }
     },
     "year": 2013,
@@ -425,14 +424,14 @@
     "topics": ["Epidemics and Pandemics"],
     "layers": {
       "Data layer": {
-        "Sensations": ["Tangible material/texture"],
-        "Narrative": ["Humans behind the dots", "Individualised data"],
-        "Context": ["Situated place", "Physical world"]
+        "Sensations": ["One Element, One Life"],
+        "Narrative": ["Data with a name"],
+        "Context": ["Situated place", "Physical world"],
+        "Behaviour": ["Interacting with Data"]
       },
       "Graph layer": {
-        "Sensations": ["Space"],
-        "Narrative": ["Wording/phrasing", "Gradual reveal"],
-        "Behaviour": ["Walk/wander"],
+        "Narrative": ["Human-Centric Language"],
+        "Behaviour": ["participate"],
         "Context": ["Situated place", "Physical world"]
       }
     },
@@ -448,12 +447,12 @@
     "topics": ["Epidemics and Pandemics"],
     "layers": {
       "Data layer": {
-        "Sensations": ["Colour", "Kinetic movement", "Sound"],
-        "Narrative": ["Humans behind the dots"]
+        "Sensations": ["Feeling through colour", "One Element, One Life"],
+        "Narrative": ["Speeding up"]
       },
       "Graph layer": {
-        "Sensations": ["Colour"],
-        "Narrative": ["Wording/phrasing", "Statistical Framing"]
+        "Sensations": ["Feeling through colour"],
+        "Narrative": ["Human-Centric Language", "Statistical Framing"]
       }
     },
     "year": 2022,
@@ -468,17 +467,16 @@
     "topics": ["Armed Conflicts"],
     "layers": {
       "Data layer": {
-        "Sensations": ["Colour"],
-        "Narrative": ["Humans behind the dots"]
+        "Sensations": ["Feeling through colour", "One Element, One Life"]
       },
       "Graph layer": {
-        "Sensations": ["Colour"]
+        "Sensations": ["Feeling through colour"]
       },
       "Story layer": {
-        "Sensations": ["Imagery", "Colour"],
+        "Sensations": ["True-Life Imagery", "Feeling through colour"],
         "Narrative": [
-          "Wording/phrasing",
-          "Sharing true life events",
+          "Human-Centric Language",
+          "Real-Life Story in Focus",
           "Gradual reveal"
         ]
       }
@@ -496,17 +494,13 @@
     "topics": ["Mass Displacement"],
     "layers": {
       "Data layer": {
-        "Sensations": ["Colour"],
-        "Narrative": ["Humans behind the dots"]
-      },
-      "Graph layer": {
-        "Sensations": ["Kinetic movement"]
+        "Sensations": ["One Element, One Life"]
       },
       "Story layer": {
-        "Sensations": ["Imagery"],
+        "Sensations": ["True-Life Imagery"],
         "Narrative": [
-          "Wording/phrasing",
-          "Sharing true life events",
+          "Human-Centric Language",
+          "Real-Life Story in Focus",
           "Quating",
           "Gradual reveal"
         ]
@@ -524,18 +518,17 @@
     "topics": ["Armed Conflicts"],
     "layers": {
       "Data layer": {
-        "Sensations": ["Imagery"],
-        "Narrative": ["Humans behind the dots"]
+        "Sensations": ["Visual Metaphor", "One Element, One Life"]
       },
       "Graph layer": {
-        "Sensations": ["Kinetic movement", "Sound"],
+        "Sensations": ["Feeling through sound"],
         "Narrative": ["Gradual reveal"]
       },
       "Story layer": {
-        "Sensations": ["Imagery", "Graphic style", "Voice"],
+        "Sensations": ["True-Life Imagery", "Handcrafted style", "Human voice"],
         "Narrative": [
-          "Wording/phrasing",
-          "Sharing true life events",
+          "Human-Centric Language",
+          "Real-Life Story in Focus",
           "Breaking the fourth wall",
           "Gradual reveal"
         ]
@@ -554,15 +547,18 @@
     "topics": ["Mass Displacement"],
     "layers": {
       "Graph layer": {
-        "Sensations": ["Voice"],
-        "Narrative": ["Wording/phrasing", "Sharing true life events"]
+        "Sensations": ["Human voice"],
+        "Narrative": ["Human-Centric Language", "Real-Life Story in Focus"]
       },
       "Story layer": {
-        "Sensations": ["Imagery", "Graphic style", "Video", "Sound"],
+        "Sensations": [
+          "True-Life Imagery",
+          "Handcrafted style",
+          "Sound metaphor"
+        ],
         "Narrative": [
-          "Wording/phrasing",
-          "Sharing true life events",
-          "Call to action",
+          "Human-Centric Language",
+          "Real-Life Story in Focus",
           "Quating",
           "Gradual reveal"
         ]
@@ -580,27 +576,28 @@
     "topics": ["Armed Conflicts"],
     "layers": {
       "Data layer": {
-        "Sensations": ["Tangible material/texture", "Shape"],
-        "Narrative": ["Using a Metaphor", "Humans behind the dots"],
-        "Context": ["Physical world"],
-        "Behaviour": ["Manipulate/operate"]
-      },
-      "Graph layer": {
-        "Sensations": ["Space"],
-        "Narrative": ["Gradual reveal", "Using a Metaphor"],
-        "Context": ["Physical world"],
-        "Behaviour": ["Walk/wander"]
-      },
-      "Story layer": {
-        "Sensations": ["Voice"],
-        "Narrative": [
-          "Wording/phrasing",
-          "Sharing true life events",
-          "Call to action",
-          "Individualised data"
+        "Sensations": [
+          "Tangible material",
+          "Visual Metaphor",
+          "One Element, One Life"
         ],
         "Context": ["Physical world"],
-        "Behaviour": ["Participate"]
+        "Behaviour": ["Interacting with Data"]
+      },
+      "Graph layer": {
+        "Narrative": ["Gradual reveal"],
+        "Context": ["Physical world"],
+        "Behaviour": ["walk"]
+      },
+      "Story layer": {
+        "Sensations": ["Human voice"],
+        "Narrative": [
+          "Human-Centric Language",
+          "Real-Life Story in Focus",
+          "Data with a name"
+        ],
+        "Context": ["Physical world"],
+        "Behaviour": ["participate"]
       }
     },
     "year": 2018,
@@ -615,14 +612,12 @@
     "topics": ["Epidemics and Pandemics"],
     "layers": {
       "Data layer": {
-        "Sensations": ["Voice"],
-        "Narrative": ["Humans behind the dots", "Individualised data"]
+        "Sensations": ["Human voice", "One Element, One Life"],
+        "Narrative": ["Data with a name"]
       },
       "Story layer": {
-        "Sensations": ["Space"],
-        "Narrative": ["Using a Metaphor"],
         "Context": ["3D"],
-        "Behaviour": ["Manipulate/operate"]
+        "Behaviour": ["Interacting with Data"]
       }
     },
     "year": 2020,
@@ -637,9 +632,9 @@
     "topics": ["Armed Conflicts"],
     "layers": {
       "Data layer": {
-        "Sensations": ["Tangible material/texture"],
-        "Narrative": ["Humans behind the dots", "Individualised data"],
-        "Behaviour": ["Manipulate/operate", "Walk/wander"],
+        "Sensations": ["Tangible material", "One Element, One Life"],
+        "Narrative": ["Data with a name"],
+        "Behaviour": ["Interacting with Data", "walk"],
         "Context": ["Physical world", "Situated place"]
       }
     },
@@ -655,14 +650,14 @@
     "topics": ["Acts of Terror"],
     "layers": {
       "Data layer": {
-        "Sensations": ["Tangible material/texture", "Imagery"],
-        "Narrative": ["Humans behind the dots", "Individualised data"],
+        "Sensations": ["Data with a Human Face", "One Element, One Life"],
+        "Narrative": ["Data with a name"],
         "Context": ["Physical world"]
       },
       "Story layer": {
-        "Sensations": ["Voice", "Imagery", "Tangible material/texture"],
-        "Narrative": ["Wording/phrasing", "Sharing true life events"],
-        "Behaviour": ["Walk/wander"],
+        "Sensations": ["Human voice"],
+        "Narrative": ["Human-Centric Language", "Real-Life Story in Focus"],
+        "Behaviour": ["walk"],
         "Context": ["Physical world", "Situated place"]
       }
     },
@@ -678,13 +673,13 @@
     "topics": ["Epidemics and Pandemics"],
     "layers": {
       "Data layer": {
-        "Narrative": ["Humans behind the dots", "Breaking the fourth wall"]
+        "Narrative": ["Breaking the fourth wall"],
+        "Sensations": ["One Element, One Life"]
       },
       "Story layer": {
-        "Sensations": ["Map"],
         "Narrative": [
-          "Wording/phrasing",
-          "Sharing true life events",
+          "Human-Centric Language",
+          "Real-Life Story in Focus",
           "Breaking the fourth wall",
           "Gradual reveal"
         ]
@@ -703,17 +698,16 @@
     "topics": ["Epidemics and Pandemics"],
     "layers": {
       "Data layer": {
-        "Narrative": ["Humans behind the dots"]
+        "Sensations": ["Visual Metaphor", "One Element, One Life"]
       },
       "Graph layer": {
-        "Sensations": ["Kinetic movement"],
-        "Narrative": ["Gradual reveal", "Wording/phrasing"]
+        "Narrative": ["Gradual reveal", "Human-Centric Language"]
       },
       "Story layer": {
-        "Sensations": ["Kinetic movement", "Imagery"],
+        "Sensations": ["True-Life Imagery"],
         "Narrative": [
-          "Wording/phrasing",
-          "Sharing true life events",
+          "Human-Centric Language",
+          "Real-Life Story in Focus",
           "Statistical Framing"
         ]
       }
@@ -731,23 +725,23 @@
     "topics": ["Mass Displacement"],
     "layers": {
       "Data layer": {
-        "Narrative": ["A Singular Story"]
+        "Narrative": ["Real-Life Story in Focus"]
       },
       "Story layer": {
-        "Sensations": ["Graphic style", "Imagery"],
+        "Sensations": ["Handcrafted style", "True-Life Imagery"],
         "Narrative": [
           "Incorporating the audience",
-          "Wording/phrasing",
+          "Human-Centric Language",
           "Breaking the fourth wall"
         ],
-        "Behaviour": ["Play"]
+        "Behaviour": ["play"]
       }
     },
     "year": 2015,
     "description": "TBA"
   },
   {
-    "title": " Simon Scarr",
+    "title": "Iraq's Bloody Toll",
     "image": "/assets/images/iraqs-bloody-toll.png",
     "link": "https://www.simonscarr.com/iraqs-bloody-toll",
     "published in": "South China Morning Post",
@@ -756,33 +750,14 @@
     "topics": ["Armed Conflicts"],
     "layers": {
       "Data layer": {
-        "Sensations": ["Colour"]
+        "Sensations": ["Feeling through colour"]
       },
       "Graph layer": {
-        "Sensations": ["Shape"],
-        "Narrative": ["Wording/phrasing", "Sharing true life events"]
+        "Sensations": ["Visual Metaphor"],
+        "Narrative": ["Human-Centric Language", "Real-Life Story in Focus"]
       }
     },
     "year": 2011,
-    "description": "TBA"
-  },
-  {
-    "title": "Simulated Dendrochronology of U.S. Immigration 1790-2016",
-    "image": "/assets/images/us-immigration.png",
-    "link": "https://www.informationisbeautifulawards.com/showcase/3312-simulated-dendrochronology-of-u-s-immigration-1790-2016",
-    "authors": "National Geographic, Northeastern University",
-    "genres": ["Static image", "Video"],
-    "topics": ["Mass Displacement"],
-    "layers": {
-      "Data layer": {
-        "Narrative": ["Humans behind the dots"]
-      },
-      "Graph layer": {
-        "Sensations": ["Shape"],
-        "Narrative": ["Using a Metaphor"]
-      }
-    },
-    "year": 2018,
     "description": "TBA"
   },
   {
@@ -794,12 +769,16 @@
     "topics": ["Public Health"],
     "layers": {
       "Data layer": {
-        "Sensations": ["Colour", "Graphic style", "Shape"],
-        "Narrative": ["Individualised data", "Humans behind the dots"]
+        "Sensations": [
+          "Handcrafted style",
+          "Organic shape",
+          "One Element, One Life"
+        ],
+        "Narrative": ["Data with a name"]
       },
       "Graph layer": {
-        "Narrative": ["Sharing true life events", "Wording/phrasing"],
-        "Behaviour": ["Walk/wander"],
+        "Narrative": ["Real-Life Story in Focus", "Human-Centric Language"],
+        "Behaviour": ["walk"],
         "Context": ["Physical world"]
       }
     },
@@ -816,19 +795,18 @@
     "topics": ["Mass Displacement"],
     "layers": {
       "Data layer": {
-        "Sensations": ["Graphic style", "Imagery"],
-        "Narrative": ["Humans behind the dots"]
+        "Sensations": ["Handcrafted style", "Visual Metaphor"]
       },
       "Graph layer": {
         "Narrative": [
-          "Sharing true life events",
+          "Real-Life Story in Focus",
           "Gradual reveal",
-          "Wording/phrasing"
+          "Human-Centric Language"
         ]
       },
       "Story layer": {
-        "Sensations": ["Imagery"],
-        "Narrative": ["A Singular Story", "Sharing true life events"]
+        "Sensations": ["True-Life Imagery"],
+        "Narrative": ["Real-Life Story in Focus", "Real-Life Story in Focus"]
       }
     },
     "year": 2022,
@@ -844,18 +822,18 @@
     "topics": ["Epidemics and Pandemics"],
     "layers": {
       "Data layer": {
-        "Narrative": ["Humans behind the dots"]
+        "Sensations": ["One Element, One Life"]
       },
       "Graph layer": {
         "Narrative": [
           "Gradual reveal",
-          "Wording/phrasing",
-          "Sharing true life events",
+          "Human-Centric Language",
+          "Real-Life Story in Focus",
           "Statistical Framing"
         ]
       },
       "Story layer": {
-        "Narrative": ["Wording/phrasing"]
+        "Narrative": ["Human-Centric Language"]
       }
     },
     "year": 2015,
@@ -870,12 +848,11 @@
     "topics": ["Armed Conflicts"],
     "layers": {
       "Data layer": {
-        "Sensations": ["Imagery", "Colour"],
-        "Narrative": ["Using a Metaphor"]
+        "Sensations": ["Visual Metaphor", "Feeling through colour"]
       },
       "Story layer": {
-        "Sensations": ["Imagery", "Colour"],
-        "Narrative": ["Gradual reveal", "Sharing true life events"]
+        "Sensations": ["Visual Metaphor", "Feeling through colour"],
+        "Narrative": ["Gradual reveal", "Real-Life Story in Focus"]
       }
     },
     "year": 2013,
@@ -889,31 +866,9 @@
     "genres": ["Interactive"],
     "topics": ["Mass Displacement"],
     "layers": {
-      "Data layer": {
-        "Sensations": ["Kinetic movement"]
-      },
       "Story layer": {
-        "Sensations": ["Imagery"],
-        "Narrative": ["Sharing true life events", "A Singular Story"]
-      }
-    },
-    "year": 2014,
-    "description": "TBA"
-  },
-  {
-    "title": "Refugee Project",
-    "image": "/assets/images/refugee-project.png",
-    "link": "https://www.therefugeeproject.org/#/2023",
-    "authors": "Hyperakt, Ekene Ijeoma",
-    "genres": ["Interactive"],
-    "topics": ["Mass Displacement"],
-    "layers": {
-      "Data layer": {
-        "Sensations": ["Kinetic movement"]
-      },
-      "Story layer": {
-        "Sensations": ["Imagery"],
-        "Narrative": ["Sharing true life events", "A Singular Story"]
+        "Sensations": ["True-Life Imagery"],
+        "Narrative": ["Real-Life Story in Focus", "Real-Life Story in Focus"]
       }
     },
     "year": 2014,
@@ -928,15 +883,13 @@
     "topics": ["Epidemics and Pandemics"],
     "layers": {
       "Data layer": {
-        "Sensations": ["Kinetic movement", "Sound"],
-        "Narrative": ["Humans behind the dots"]
+        "Sensations": ["Feeling through sound", "One Element, One Life"]
       },
       "Graph layer": {
-        "Sensations": ["Kinetic movement"],
         "Narrative": [
           "Gradual reveal",
-          "Wording/phrasing",
-          "Sharing true life events"
+          "Human-Centric Language",
+          "Real-Life Story in Focus"
         ]
       }
     },
