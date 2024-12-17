@@ -76,7 +76,7 @@
           "Speeding up",
           "Gradual reveal"
         ],
-        "Behaviour": ["Interacting with Data"]
+        "Behaviour": ["manipulate"]
       },
       "Story layer": {
         "Narrative": ["Real-Life Story in Focus"]
@@ -192,7 +192,7 @@
       },
       "Graph layer": {
         "Narrative": ["Real-Life Story in Focus", "Gradual reveal"],
-        "Behaviour": ["Interacting with Data"]
+        "Behaviour": ["manipulate"]
       },
       "Story layer": {
         "Narrative": ["Human-Centric Language"]
@@ -427,7 +427,7 @@
         "Sensations": ["One Element, One Life"],
         "Narrative": ["Data with a name"],
         "Context": ["Situated place", "Physical world"],
-        "Behaviour": ["Interacting with Data"]
+        "Behaviour": ["manipulate"]
       },
       "Graph layer": {
         "Narrative": ["Human-Centric Language"],
@@ -582,7 +582,7 @@
           "One Element, One Life"
         ],
         "Context": ["Physical world"],
-        "Behaviour": ["Interacting with Data"]
+        "Behaviour": ["manipulate"]
       },
       "Graph layer": {
         "Narrative": ["Gradual reveal"],
@@ -617,7 +617,7 @@
       },
       "Story layer": {
         "Context": ["3D"],
-        "Behaviour": ["Interacting with Data"]
+        "Behaviour": ["manipulate"]
       }
     },
     "year": 2020,
@@ -634,7 +634,7 @@
       "Data layer": {
         "Sensations": ["Tangible material", "One Element, One Life"],
         "Narrative": ["Data with a name"],
-        "Behaviour": ["Interacting with Data", "walk"],
+        "Behaviour": ["manipulate", "walk"],
         "Context": ["Physical world", "Situated place"]
       }
     },
