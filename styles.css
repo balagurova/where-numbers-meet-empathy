@@ -1,7 +1,11 @@
 :root {
   --carrot: #ff5e00;
   --beige: #f5f5f5;
-  --pink: #F5D5D2;
+  --darkBeige: #e3dddd;
+  --pink: #FFA3B2;
+  --lightPink: #fadee5;
+  --serif: "calluna", serif;
+  --sans: 'Overused Grotesk', sans-serif; 
 }
 body {
     margin: 0;
@@ -15,8 +19,8 @@ body {
     color: var(--carrot);
     min-height: 100%;
     font-weight: 200;
-    font-family: 'Overused Grotesk', sans-serif; 
-  }
+    font-family: var(--sans);
+}
 
   html {
     scroll-behavior: smooth;
@@ -27,31 +31,47 @@ body {
     margin:0;
   }
 
-  footer{ 
-    background-color: var(--carrot);;
-    color: white;
-    width: 100%;
-   min-height: 80vh;
-   margin-top: 64px;
-   padding-bottom: 124px;
-   display: flex;
-   justify-content: center;
-   align-items: flex-end;
-   font-size: 84px;
-   font-family: "calluna", serif;
-   font-style: italic;
-   font-weight: 300;
+  h2{
+    font-family: var(--sans);
+    font-weight: 200;
+    font-size: 64px;
+    margin-bottom: 16px;
   }
 
+  footer{ 
+    background-color: var(--pink);;
+    color: var(--carrot);
+    width: 100%;
+   min-height: 50vh;
+   padding-bottom: 48px;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+  }
+
+
+  .gradient-div {
+    height: 400px;
+    min-height: 400px;
+    background: linear-gradient(180deg, rgba(255, 163, 178, 0.00) 0%, rgba(255, 163, 178, 0.01) 11.79%, rgba(255, 163, 178, 0.03) 21.38%, rgba(255, 163, 178, 0.07) 29.12%, rgba(255, 163, 178, 0.12) 35.34%, rgba(255, 163, 178, 0.18) 40.37%, rgba(255, 163, 178, 0.25) 44.56%, rgba(255, 163, 178, 0.33) 48.24%, rgba(255, 163, 178, 0.41) 51.76%, rgba(255, 163, 178, 0.50) 55.44%, rgba(255, 163, 178, 0.59) 59.63%, rgba(255, 163, 178, 0.67) 64.66%, rgba(255, 163, 178, 0.76) 70.88%, rgba(255, 163, 178, 0.85) 78.62%, rgba(255, 163, 178, 0.93) 88.21%, #FFA3B2 100%);    /* background: linear-gradient(180deg, rgba(255, 94, 0, 0.00) 0%, rgba(255, 94, 0, 0.01) 11.79%, rgba(255, 94, 0, 0.03) 21.38%, rgba(255, 94, 0, 0.07) 29.12%, rgba(255, 94, 0, 0.12) 35.34%, rgba(255, 94, 0, 0.18) 40.37%, rgba(255, 94, 0, 0.25) 44.56%, rgba(255, 94, 0, 0.33) 48.24%, rgba(255, 94, 0, 0.41) 51.76%, rgba(255, 94, 0, 0.50) 55.44%, rgba(255, 94, 0, 0.59) 59.63%, rgba(255, 94, 0, 0.67) 64.66%, rgba(255, 94, 0, 0.76) 70.88%, rgba(255, 94, 0, 0.85) 78.62%, rgba(255, 94, 0, 0.93) 88.21%, #FF5E00 100%); */
+  }
+
+
   h3{
-    font-size: 20px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 400;
+    margin:0;
     margin-bottom: 8px;
   }
 
+  .lead{
+    font-size: 20px!important;
+    padding-bottom: 24px!important;
+  }
+
   ::selection {
-    background: var(--pink);
+    background: var(--beige);
   }
 
   body {
@@ -143,6 +163,17 @@ body {
  text-align: center;
  line-height: 150%;
  padding: 24px 32px 0px 40px;
+ display: inline-block;
+}
+
+.flexCenter{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#empathy{
+  z-index:10;
 }
 
 
@@ -152,9 +183,9 @@ body {
   padding: 2px 4px;
   text-transform: uppercase;
   font-size: 13px;
-  letter-spacing: 0.03rem;
+  letter-spacing: 0.04rem;
+  font-weight: 200;
 }
-
 
 .container {
     margin: 0 auto;
@@ -222,12 +253,16 @@ body {
 
 }
   a {
-    display: block;
-    color: var(--carrot);;
-    font-family: "calluna", serif;
-    font-style: italic;
+    color: inherit;
     text-decoration: none;
   }
+
+  .link {
+    border-bottom: 0.05rem solid var(--carrot);
+    padding: 0;
+    margin: 0;
+    width: fit-content;
+}
 
 
   .link-container{
@@ -244,37 +279,82 @@ body {
     display: none; /* Hidden by default */
     position: fixed;
     top: 0;
-    left: 0;
-    width: 100%;
+    right: 0;
+    width: 50%;
     height: 100%;
-    background-color: var(--carrot);;
+    background-color: var(--darkBeige);
     z-index: 1000;
     justify-content: center;
     align-items: center;
+    overflow: auto;
   }
   
   .modal-content {
-    background-color: #fff; /* White inner content */
-    width: 60%;
-    padding: 20px;
+    color: var(--carrot);
+    padding: 0 64px 0 32px;
     position: relative;
     text-align: left;
+    overflow-y: auto; 
   }
   
   .close-button {
     position: absolute;
-    top: 32px;
+    top: 0;
     right: 16px;
     font-size: 64px;
-    line-height: 0%;
+    line-height: 100%;
     cursor: pointer;
-    color: #fff;
+  }
+
+  .close-button {
+    position: absolute;
+    top: 4px;
+    right: 10px;
+    cursor: pointer;
   }
   
+  .close-icon {
+    font-size: 48px!important; /* Sets the font size, which controls the icon's size */
+    font-variation-settings: "wght" 100;
+    color: var(--carrot);     /* Color of the icon */
+    display: inline-block;
+  }
+  
+
   .modal-body  {
-    max-width: 100%;
+    padding-top: 8px;
     margin-bottom: 20px;
   }
+
+  .modal-body h3 {
+    font-size: 1.1rem;
+    text-transform: lowercase;
+    border-bottom: 1px solid var(--carrot);
+    width: fit-content;
+  }
+  .modal-body p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.4;
+    padding-bottom: 8px;
+
+  }
+
+  .dictionaryItem{
+    padding-bottom: 24px;
+    padding-top: 8px;
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 0.05rem solid var(--carrot);
+  }
+
+  .dictionaryItem p{
+width: 65%;
+  }
+
+
+
   
 
 
@@ -333,6 +413,8 @@ text-align: center;
     border-bottom: 1px solid var(--carrot);
     line-height: 100%;
   }
+
+
   
   .filter-list ul {
     list-style: none;
@@ -375,18 +457,6 @@ justify-content: center;
   }
 
 
-  .modal-body .tag {
-    display: inline-block;
-    background-color: #f1f1f1;
-    padding: 5px 10px;
-    margin-right: 5px;
-    margin-bottom: 5px;
-    border-radius: 20px;
-    font-size: 12px;
-    margin-top: 10px;
-    text-transform: uppercase;
-  }
-
   .technique-chips{
     display: flex;
     flex-wrap: wrap;
@@ -406,10 +476,13 @@ justify-content: center;
   pointer-events: none;
   transform: translate(-50%, -50%);
   transition: transform 0.2s ease, filter 0.2s ease;
-  z-index: 1000;
+  z-index: 0;
+  /* z-index: -10; */
 }
 
 .cursor-dot.blurred {
-  filter: blur(6px);  /* Adds blur effect */
-  transform: scale(20); /* Enlarges the dot when clicked */
-}
+border-radius: 637px;
+transform: scale(200);
+border-radius: 637px;
+filter: blur(1px);
+background: radial-gradient(50% 50% at 50% 50%, #FFA3B2 0%, rgba(255, 163, 178, 0.99) 11.79%, rgba(255, 163, 178, 0.97) 21.38%, rgba(255, 163, 178, 0.93) 29.12%, rgba(255, 163, 178, 0.88) 35.34%, rgba(255, 163, 178, 0.82) 40.37%, rgba(255, 163, 178, 0.75) 44.56%, rgba(255, 163, 178, 0.67) 48.24%, rgba(255, 163, 178, 0.59) 51.76%, rgba(255, 163, 178, 0.50) 55.44%, rgba(255, 163, 178, 0.41) 59.63%, rgba(255, 163, 178, 0.33) 64.66%, rgba(255, 163, 178, 0.24) 70.88%, rgba(255, 163, 178, 0.15) 78.62%, rgba(255, 163, 178, 0.07) 88.21%, rgba(255, 163, 178, 0.00) 100%);}

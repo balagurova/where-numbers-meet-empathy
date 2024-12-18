@@ -9,9 +9,10 @@
     <link rel="stylesheet" href="https://use.typekit.net/cig3amv.css" />
     <script src="/assets/scripts/script.js"></script>
     <link
-      href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100..700"
       rel="stylesheet"
     />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <title>Document</title>
@@ -20,8 +21,8 @@
     <div class="hover-text"></div>
     <div class="home__header">
       <div class="nav">
-        <a href="#contact" class="button-with-brackets">add a project</a>
-        <a href="/methodology.html" class="button-with-brackets">methodology</a>
+        <a data-modal="glossary" class="button-with-brackets">methodology</a>
+        <a data-modal="love" style="font-style: normal;" class="button-with-brackets">♥</a>
       </div>
       <div class="container container--default">
         <h1>
@@ -44,34 +45,298 @@
 
     <div class="grid">
       <div id="techniques-sensations" class="filter-list">
-        <h3>Multisensory</h3>
+        <h3>Address Sensations</h3>
         <ul></ul>
       </div>
       <div id="techniques-narrative" class="filter-list">
-        <h3>Narrative</h3>
+        <h3>shape narrative</h3>
         <ul></ul>
       </div>
       <div id="techniques-behaviour" class="filter-list">
-        <h3>Behaviour</h3>
+        <h3>influence behaviour</h3>
         <ul></ul>
       </div>
       <div id="techniques-context" class="filter-list">
-        <h3>Context</h3>
+        <h3>change Context</h3>
         <ul></ul>
       </div>
     </div>
 
     <div class="cards" id="project-gallery"></div>
-    <footer id="contact">Any project in mind?</footer>
+    <div class="gradient-div"></div>
+    <footer id="contact">
+      <div class="home__header">
+        <div class="container container--default">
+          <h1>
+            <div class="site-title home__site-title light hover-effect">
+              <span>Any projects or</span>
+            </div>
+            <div class="site-title home__site-title">
+              <span>ideas</span>
+              <span class="title-desc flexCenter" style="width: 270px"
+                >Let’s expand this collection together. Feel free to get in
+                touch at
+                <a class="link" href="mailto:anastasiia.balagurova@gmail.com"
+                  >anastasiia.balagurova@gmail.com</a
+                >
+              </span>
+              <span>in mind?</span>
+            </div>
+          </h1>
+        </div>
+        <div clas="grid"></div>
+      </div>
+    </footer>
 
     <div id="modal" class="modal">
-      <span class="close-button">&times;</span>
       <div class="modal-content">
+        <span class="close-button">
+          <span class="material-symbols-outlined close-icon">close</span>
+        </span>
         <div class="modal-body">
-          <!-- Content will be dynamically added here -->
         </div>
       </div>
     </div>
+
+    <script>
+  document.addEventListener('DOMContentLoaded', () => {
+  const modal = document.getElementById('modal');
+  const closeButton = document.querySelector('.close-button');
+  const modalBody = modal.querySelector('.modal-body');
+
+  // Create the cursor dot
+  const cursorDot = document.createElement('div');
+  cursorDot.classList.add('cursor-dot');
+  document.body.appendChild(cursorDot);
+
+  // Handle cursor behavior for "empathy"
+  const empathyElement = document.getElementById('empathy');
+
+  // Content for different modal triggers
+  const modalContent = {
+    love: `
+       <h2>Hi!</h2>
+<p class='lead'>
+My name is Anastasia, and this project is part of my master's thesis, 'Visualising People in Humanitarian Crises: Where Numbers Meet Empathy,' at Aalto University in Helsinki, Finland. As part of this thesis, I am collecting data-driven projects and examining techniques that bridge data with the human experiences behind the numbers.</p>
+<p class='lead'>If you have a project in mind, I would love to hear about it so we can expand this collection together and share ideas that inspire us, as data visualization practitioners, to create more human-centered projects.</p>
+<p class='lead'>
+This topic is close to my heart and deeply connected to my practice. I would be grateful for any feedback or conversations on it. Feel free to drop me a line via email <a class='link' href='mailto:anastasia.balagurova@gmail.com'>anastasia.balagurova@gmail.com</a>.</p>
+    `,
+    glossary: `
+    <h2>Methodology</h2>
+     <p class='lead'>
+Affective data visualisation encompasses various techniques and approaches which can be categorised in different ways. In this project I'm using four categoeies suggested by Lan et al. (2023): sensations, narrative, behavior, context.</p>
+     <p class='lead'>
+Affective techniques, or methods that bring out the human side of data and highlight the experiences behind the numbers, are being gathered through theoretical review and case study analysis. This project presents a curated collection of projects resulting from this process.</p>
+     <p class='lead'>
+Below is a list of affective techniques that can be used to make data visualization more empathetic. These techniques suggest possible approaches but do not necessarily guarantee the desired outcome, as their effectiveness depends on context and implementation.</p>
+      <h3>address sensations</h3>
+           <p style='padding-bottom: 16px;'>
+ This strategy targets different human senses (sight, hearing, touch etc.) 
+      </p>
+      <div class='dictionaryItem'>
+      <p><span class='tag'>Handcrafted Style</span></p>
+      <p>Emphasizes a personal touch to data by using a handcrafted Handcrafted style, like hand-drawn sketches and textures or handwritten typography.</p>
+      </div>
+            <div class='dictionaryItem'>
+      <p><span class='tag'>True-Life Imagery</span></p>
+      <p> Uses realistic visuals like photography or illustrations to foster a connection to the context of the data.</p>
+      </div>
+            <div class='dictionaryItem'>
+      <p><span class='tag'>Data with a Human Face</span></p>
+      <p>Uses portraits of people behind the data to emphasize human impact and connect the numbers to real individuals and their stories.</p>
+      </div>
+            <div class='dictionaryItem'>
+      <p><span class='tag'>Visual metaphor</span></p>
+      <p>Represents data with symbolic visuals to convey it in an emotionally resonant way, using imagery that link cultural, contextual, or thematic elements to data.</p>
+      </div>
+            <div class='dictionaryItem'>
+      <p><span class='tag'>Organic shape</span></p>
+      <p>Uses natural, flowing forms to highlight the human side in data,  making rigid datasets feel more relatable.</p>
+      </div>
+            <div class='dictionaryItem'>
+      <p><span class='tag'>color</span></p>
+      <p>Utilizes colors to evoke specific emotional responses.</p>
+      </div>
+            <div class='dictionaryItem'>
+      <p><span class='tag'>sound meraphor</span></p>
+      <p>Adds sounds that connect symbolically to the data’s context and evoke an emotional response.</p>
+      </div>
+            <div class='dictionaryItem'>
+      <p><span class='tag'>sound</span></p>
+      <p>Utilizes sounds and its property (rythm, volume, tone etc.) to evoke specific emotional responses.</p>
+      </div>
+            <div class='dictionaryItem'>
+      <p><span class='tag'>human voice</span></p>
+      <p>Incorporates spoken words or voiceovers for a personal touch.</p>
+      </div>
+            <div class='dictionaryItem'>
+      <p><span class='tag'>tangible material</span></p>
+      <p>Uses textures and materiality of physical objects to create a sensory connection.</p>
+      </div>
+      <h3>shape narrative</h3>
+           <p style='padding-bottom: 16px;'>
+        This strategy utilises storytelling to evoke affective response.
+      </p>
+      <div class='dictionaryItem'>
+      <p><span class='tag'>one element, one lifee</span></p>
+      <p>Highlights individual elements to represent unique data points, such as using one dot to symbolize one life.</p>
+      </div>
+            <div class='dictionaryItem'>
+      <p><span class='tag'>data with a name</span></p>
+      <p>Gives names or other personal information behind each data point, making them feel more personal and relatable.</p>
+      </div>
+            <div class='dictionaryItem'>
+      <p><span class='tag'>Real-Life Story in Focus</span></p>
+      <p>Centers the narrative on personal, relatable experiences.</p>
+      </div>
+            <div class='dictionaryItem'>
+      <p><span class='tag'>Human-Centric Language</span></p>
+      <p>Employs accessible, empathetic language.</p>
+      </div>
+            <div class='dictionaryItem'>
+      <p><span class='tag'>Gradual Revealr</span></p>
+      <p>Builds suspense or interest by unveiling information step-by-step, often using techniques like scrolling, sliding, or animations.</p>
+      </div>
+            <div class='dictionaryItem'>
+      <p><span class='tag'>Quoting people people</span></p>
+      <p>Uses direct quotes of people behind the data to add authenticity and voice.</p>
+      </div>
+            <div class='dictionaryItem'>
+      <p><span class='tag'>Changing the flow</span></p>
+      <p>Adjusts pacing of narrative to manipulate the flow of information.</p>
+      </div>
+            <div class='dictionaryItem'>
+      <p><span class='tag'>Changing the flow</span></p>
+      <p>adjusts the pacing and sequence of information (Changing the flow or slowing down) to address specific emotions such as excitement, anticipation, calmness, or reflection.</p>
+      </div>
+            <div class='dictionaryItem'>
+      <p><span class='tag'>Breaking the Fourth Wall:</span></p>
+      <p>Directly engages the audience for immediacy.</p>
+      </div>
+            <div class='dictionaryItem'>
+      <p><span class='tag'>Breaking the Fourth Wall:</span></p>
+      <p>Directly engages the audience to create a sense of personal involvement</p>
+      </div>
+            <div class='dictionaryItem'>
+      <p><span class='tag'>Statistical Framing</span></p>
+      <p>Presents data within a relatable context to make it more accessible, such as converting large numbers into smaller units (e.g., per second or per person), helping audiences grasp the scale more tangibly.</p>
+      </div>
+            <div class='dictionaryItem'>
+      <p><span class='tag'>Incorporating the Audience</span></p>
+      <p>Actively involves viewers in the narrative by asking questions and adapting data visualizations based on their responses.</p>
+      </div>
+      <h3>influence behaviour</h3>
+           <p style='padding-bottom: 16px;'>
+        This strategy aims at influencing human actions.
+      </p>
+      <div class='dictionaryItem'>
+      <p><span class='tag'>manipulate</span></p>
+      <p>Allows viewers to interact with the data by manipulating or operating the visualisation.</p>
+      </div>
+      <div class='dictionaryItem'>
+      <p><span class='tag'>play</span></p>
+      <p>Leverages gamification to connect viewers with data by integrating interactive elements.</p>
+      </div>
+      <div class='dictionaryItem'>
+      <p><span class='tag'>walk</span></p>
+      <p>Guides viewers through a process or environment to explore data.</p>
+      </div>
+      <div class='dictionaryItem'>
+      <p><span class='tag'>participate</span></p>
+      <p>Encourages active involvement from users by creating engaging experiences such as data-driven events, exhibitions, or participatory activities.</p>
+      </div>
+      <div class='dictionaryItem'>
+      <p><span class='tag'>create</span></p>
+      <p>Enable viewers to create or build their own visualisations from the data.</p>
+      </div>
+      <h3>change context</h3>
+      <p style='padding-bottom: 16px;'>
+      This strategy explores how surroundings could influence the experience of data visualisation. 
+      </p>
+      <div class='dictionaryItem'>
+      <p><span class='tag'>3D</span></p>
+      <p>Incorporates three-dimensional elements or environment to add realistic context or address the complexity of data.</p>
+      </div>
+      <div class='dictionaryItem'>
+      <p><span class='tag'>VR/IR</span></p>
+      <p>Uses Virtual Reality (VR) and Immersive Reality (IR) to create immersive environments where users explore data in lifelike settings, connecting emotionally by simulating real-world contexts.</p>
+      </div>
+      <div class='dictionaryItem'>
+      <p><span class='tag'>Physical World</span></p>
+      <p>Bridges the gap between digital data and tangible reality.</p>
+      </div>
+      <div class='dictionaryItem'>
+      <p><span class='tag'>Situated place</span></p>
+      <p>Places data in a specific, meaningful and relatable context or location.</p>
+      </div>
+    `,
+  };
+
+  // Function to open the modal
+  function openModal(contentKey) {
+    modal.style.display = 'block';
+    modalBody.innerHTML = modalContent[contentKey] || '<p>Content not found.</p>';
+    cursorDot.classList.remove('blurred'); // Remove blurred class when modal is open
+  }
+
+  // Function to close the modal
+  function closeModal() {
+    modal.style.display = 'none';
+    modalBody.innerHTML = ''; // Clear content
+  }
+
+  // Cursor dot movement and logic
+  document.addEventListener('mousemove', (e) => {
+    cursorDot.style.left = `${e.clientX}px`;
+    cursorDot.style.top = `${e.clientY}px`;
+
+    // Handle "blurred" class logic only if the modal is not open
+    if (modal.style.display !== 'block') {
+      const rect = empathyElement.getBoundingClientRect();
+      const isInside =
+        e.clientX >= rect.left &&
+        e.clientX <= rect.right &&
+        e.clientY >= rect.top &&
+        e.clientY <= rect.bottom;
+
+      if (isInside) {
+        cursorDot.classList.add('blurred');
+        empathyElement.classList.add('highlight');
+      } else {
+        cursorDot.classList.remove('blurred');
+        empathyElement.classList.remove('highlight');
+      }
+      cursorDot.style.zIndex = '0';
+    } else {
+      // Ensure "blurred" class is removed when the modal is open
+      cursorDot.classList.remove('blurred');
+      cursorDot.style.zIndex = '1001';
+    }
+  });
+
+   // Event listeners for modal buttons
+  document.querySelectorAll('[data-modal]').forEach((link) => {
+    link.addEventListener('click', (event) => {
+      event.preventDefault();
+      const contentKey = link.getAttribute('data-modal'); // Get the modal content key
+      openModal(contentKey);
+    });
+  });
+
+  // Event listener for the close button
+  closeButton.addEventListener('click', closeModal);
+
+  // Close modal when clicking outside of it
+  window.addEventListener('click', (event) => {
+    if (event.target === modal) {
+      closeModal();
+    }
+  });
+});
+</script>
+
+    </script>
 
     <script src="script.js"></script>
   </body>

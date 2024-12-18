@@ -9,9 +9,10 @@
     "topics": ["Epidemics and Pandemics"],
     "layers": {
       "Data layer": {
-        "Sensations": ["Handcrafted style", "One Element, One Life"],
+        "Sensations": ["Handcrafted style"],
         "Narrative": [
           "Data with a name",
+          "One Element, One Life",
           "Real-Life Story in Focus",
           "Human-Centric Language"
         ]
@@ -38,11 +39,8 @@
     "topics": ["Mass Displacement"],
     "layers": {
       "Data layer": {
-        "Sensations": [
-          "True-Life Imagery",
-          "Data with a Human Face",
-          "One Element, One Life"
-        ],
+        "Sensations": ["True-Life Imagery", "Data with a Human Face"],
+        "Narrative": ["One Element, One Life"],
         "Context": ["3D"]
       },
       "Graph layer": {
@@ -73,7 +71,7 @@
       "Graph layer": {
         "Narrative": [
           "Human-Centric Language",
-          "Speeding up",
+          "Changing the flow",
           "Gradual reveal"
         ],
         "Behaviour": ["manipulate"]
@@ -95,12 +93,8 @@
     "topics": ["Epidemics and Pandemics"],
     "layers": {
       "Data layer": {
-        "Sensations": [
-          "Handcrafted style",
-          "Visual Metaphor",
-          "One Element, One Life"
-        ],
-        "Narrative": ["Data with a name"]
+        "Sensations": ["Handcrafted style", "Visual Metaphor"],
+        "Narrative": ["Data with a name", "One Element, One Life"]
       },
       "Graph layer": {
         "Narrative": ["Gradual reveal", "Human-Centric Language"]
@@ -121,7 +115,8 @@
     "topics": ["Human Rights Abuse"],
     "layers": {
       "Data layer": {
-        "Sensations": ["Organic shape", "One Element, One Life"]
+        "Sensations": ["Organic shape"],
+        "Narrative": ["One Element, One Life"]
       },
       "Graph layer": {
         "Sensations": ["Visual Metaphor"],
@@ -140,7 +135,8 @@
     "topics": ["Public Health"],
     "layers": {
       "Data layer": {
-        "Sensations": ["Visual Metaphor", "One Element, One Life"]
+        "Sensations": ["Visual Metaphor"],
+        "Narrative": ["One Element, One Life"]
       },
       "Graph layer": {
         "Narrative": ["Gradual reveal"]
@@ -170,7 +166,7 @@
         "Narrative": ["Gradual reveal"]
       },
       "Story layer": {
-        "Sensations": ["Handcrafted style", "Feeling through colour"],
+        "Sensations": ["Handcrafted style", "colour"],
         "Narrative": ["Human-Centric Language", "Quating"]
       }
     },
@@ -187,8 +183,8 @@
     "topics": ["Human Rights Abuse"],
     "layers": {
       "Data layer": {
-        "Sensations": ["Data with a Human Face", "One Element, One Life"],
-        "Narrative": ["Data with a name"]
+        "Sensations": ["Data with a Human Face"],
+        "Narrative": ["Data with a name", "One Element, One Life"]
       },
       "Graph layer": {
         "Narrative": ["Real-Life Story in Focus", "Gradual reveal"],
@@ -211,7 +207,7 @@
     "topics": ["Epidemics and Pandemics"],
     "layers": {
       "Data layer": {
-        "Sensations": ["One Element, One Life"]
+        "Narrative": ["One Element, One Life"]
       },
       "Graph layer": {
         "Narrative": ["Gradual reveal"]
@@ -239,7 +235,7 @@
     "topics": ["Epidemics and Pandemics"],
     "layers": {
       "Data layer": {
-        "Sensations": ["Feeling through colour", "Organic shape"]
+        "Sensations": ["colour", "Organic shape"]
       },
       "Graph layer": {
         "Narrative": [
@@ -251,11 +247,7 @@
         ]
       },
       "Story layer": {
-        "Sensations": [
-          "Sound metaphor",
-          "Visual Metaphor",
-          "Feeling through colour"
-        ],
+        "Sensations": ["Sound metaphor", "Visual Metaphor", "colour"],
         "Narrative": [
           "Real-Life Story in Focus",
           "Human-Centric Language",
@@ -276,8 +268,7 @@
     "topics": ["Epidemics and Pandemics"],
     "layers": {
       "Data layer": {
-        "Sensations": ["One Element, One Life"],
-        "Narrative": ["Data with a name"]
+        "Narrative": ["Data with a name", "One Element, One Life"]
       },
       "Story layer": {
         "Sensations": ["Handcrafted style"],
@@ -303,8 +294,7 @@
     "topics": ["Mass Displacement", "Armed Conflicts"],
     "layers": {
       "Data layer": {
-        "Sensations": ["One Element, One Life"],
-        "Narrative": ["Data with a name", "Quating"]
+        "Narrative": ["Data with a name", "Quating", "One Element, One Life"]
       },
       "Graph layer": {
         "Narrative": ["Gradual reveal", "Real-Life Story in Focus"]
@@ -325,8 +315,8 @@
     "topics": ["Mass Displacement"],
     "layers": {
       "Data layer": {
-        "Sensations": ["Visual Metaphor", "One Element, One Life"],
-        "Narrative": ["Data with a name"]
+        "Sensations": ["Visual Metaphor"],
+        "Narrative": ["Data with a name", "One Element, One Life"]
       },
       "Graph layer": {
         "Narrative": [
@@ -352,8 +342,8 @@
     "topics": ["Criminal Violence"],
     "layers": {
       "Data layer": {
-        "Sensations": ["Visual Metaphor", "One Element, One Life"],
-        "Narrative": ["Data with a name"]
+        "Sensations": ["Visual Metaphor"],
+        "Narrative": ["Data with a name", "One Element, One Life"]
       },
       "Graph layer": {
         "Narrative": [
@@ -383,7 +373,8 @@
     "topics": ["Mass Displacement"],
     "layers": {
       "Data layer": {
-        "Sensations": ["Feeling through colour", "One Element, One Life"]
+        "Sensations": ["colour"],
+        "Narrative": ["One Element, One Life"]
       },
       "Graph layer": {
         "Narrative": [
@@ -406,7 +397,7 @@
     "topics": ["Criminal Violence"],
     "layers": {
       "Data layer": {
-        "Sensations": ["One Element, One Life"]
+        "Narrative": ["One Element, One Life"]
       },
       "Story layer": {
         "Narrative": ["Human-Centric Language", "Gradual reveal"]
@@ -424,8 +415,7 @@
     "topics": ["Epidemics and Pandemics"],
     "layers": {
       "Data layer": {
-        "Sensations": ["One Element, One Life"],
-        "Narrative": ["Data with a name"],
+        "Narrative": ["Data with a name", "One Element, One Life"],
         "Context": ["Situated place", "Physical world"],
         "Behaviour": ["manipulate"]
       },
@@ -447,11 +437,11 @@
     "topics": ["Epidemics and Pandemics"],
     "layers": {
       "Data layer": {
-        "Sensations": ["Feeling through colour", "One Element, One Life"],
-        "Narrative": ["Speeding up"]
+        "Sensations": ["colour"],
+        "Narrative": ["Changing the flow", "One Element, One Life"]
       },
       "Graph layer": {
-        "Sensations": ["Feeling through colour"],
+        "Sensations": ["colour"],
         "Narrative": ["Human-Centric Language", "Statistical Framing"]
       }
     },
@@ -467,13 +457,14 @@
     "topics": ["Armed Conflicts"],
     "layers": {
       "Data layer": {
-        "Sensations": ["Feeling through colour", "One Element, One Life"]
+        "Sensations": ["colour"],
+        "Narrative": ["One Element, One Life"]
       },
       "Graph layer": {
-        "Sensations": ["Feeling through colour"]
+        "Sensations": ["colour"]
       },
       "Story layer": {
-        "Sensations": ["True-Life Imagery", "Feeling through colour"],
+        "Sensations": ["True-Life Imagery", "colour"],
         "Narrative": [
           "Human-Centric Language",
           "Real-Life Story in Focus",
@@ -494,7 +485,7 @@
     "topics": ["Mass Displacement"],
     "layers": {
       "Data layer": {
-        "Sensations": ["One Element, One Life"]
+        "Narrative": ["One Element, One Life"]
       },
       "Story layer": {
         "Sensations": ["True-Life Imagery"],
@@ -518,10 +509,11 @@
     "topics": ["Armed Conflicts"],
     "layers": {
       "Data layer": {
-        "Sensations": ["Visual Metaphor", "One Element, One Life"]
+        "Sensations": ["Visual Metaphor"],
+        "Narrative": ["One Element, One Life"]
       },
       "Graph layer": {
-        "Sensations": ["Feeling through sound"],
+        "Sensations": ["sound"],
         "Narrative": ["Gradual reveal"]
       },
       "Story layer": {
@@ -576,11 +568,8 @@
     "topics": ["Armed Conflicts"],
     "layers": {
       "Data layer": {
-        "Sensations": [
-          "Tangible material",
-          "Visual Metaphor",
-          "One Element, One Life"
-        ],
+        "Sensations": ["Tangible material", "Visual Metaphor"],
+        "Narrative": ["One Element, One Life"],
         "Context": ["Physical world"],
         "Behaviour": ["manipulate"]
       },
@@ -588,16 +577,6 @@
         "Narrative": ["Gradual reveal"],
         "Context": ["Physical world"],
         "Behaviour": ["walk"]
-      },
-      "Story layer": {
-        "Sensations": ["Human voice"],
-        "Narrative": [
-          "Human-Centric Language",
-          "Real-Life Story in Focus",
-          "Data with a name"
-        ],
-        "Context": ["Physical world"],
-        "Behaviour": ["participate"]
       }
     },
     "year": 2018,
@@ -612,8 +591,8 @@
     "topics": ["Epidemics and Pandemics"],
     "layers": {
       "Data layer": {
-        "Sensations": ["Human voice", "One Element, One Life"],
-        "Narrative": ["Data with a name"]
+        "Sensations": ["Human voice"],
+        "Narrative": ["Data with a name", "One Element, One Life"]
       },
       "Story layer": {
         "Context": ["3D"],
@@ -632,8 +611,8 @@
     "topics": ["Armed Conflicts"],
     "layers": {
       "Data layer": {
-        "Sensations": ["Tangible material", "One Element, One Life"],
-        "Narrative": ["Data with a name"],
+        "Sensations": ["Tangible material"],
+        "Narrative": ["Data with a name", "One Element, One Life"],
         "Behaviour": ["manipulate", "walk"],
         "Context": ["Physical world", "Situated place"]
       }
@@ -650,15 +629,9 @@
     "topics": ["Acts of Terror"],
     "layers": {
       "Data layer": {
-        "Sensations": ["Data with a Human Face", "One Element, One Life"],
-        "Narrative": ["Data with a name"],
+        "Sensations": ["Data with a Human Face"],
+        "Narrative": ["Data with a name", "One Element, One Life"],
         "Context": ["Physical world"]
-      },
-      "Story layer": {
-        "Sensations": ["Human voice"],
-        "Narrative": ["Human-Centric Language", "Real-Life Story in Focus"],
-        "Behaviour": ["walk"],
-        "Context": ["Physical world", "Situated place"]
       }
     },
     "year": 2014,
@@ -673,8 +646,7 @@
     "topics": ["Epidemics and Pandemics"],
     "layers": {
       "Data layer": {
-        "Narrative": ["Breaking the fourth wall"],
-        "Sensations": ["One Element, One Life"]
+        "Narrative": ["Breaking the fourth wall", "One Element, One Life"]
       },
       "Story layer": {
         "Narrative": [
@@ -698,7 +670,8 @@
     "topics": ["Epidemics and Pandemics"],
     "layers": {
       "Data layer": {
-        "Sensations": ["Visual Metaphor", "One Element, One Life"]
+        "Sensations": ["Visual Metaphor"],
+        "Narrative": ["One Element, One Life"]
       },
       "Graph layer": {
         "Narrative": ["Gradual reveal", "Human-Centric Language"]
@@ -750,7 +723,7 @@
     "topics": ["Armed Conflicts"],
     "layers": {
       "Data layer": {
-        "Sensations": ["Feeling through colour"]
+        "Sensations": ["colour"]
       },
       "Graph layer": {
         "Sensations": ["Visual Metaphor"],
@@ -769,12 +742,8 @@
     "topics": ["Public Health"],
     "layers": {
       "Data layer": {
-        "Sensations": [
-          "Handcrafted style",
-          "Organic shape",
-          "One Element, One Life"
-        ],
-        "Narrative": ["Data with a name"]
+        "Sensations": ["Handcrafted style", "Organic shape"],
+        "Narrative": ["Data with a name", "One Element, One Life"]
       },
       "Graph layer": {
         "Narrative": ["Real-Life Story in Focus", "Human-Centric Language"],
@@ -822,7 +791,7 @@
     "topics": ["Epidemics and Pandemics"],
     "layers": {
       "Data layer": {
-        "Sensations": ["One Element, One Life"]
+        "Narrative": ["One Element, One Life"]
       },
       "Graph layer": {
         "Narrative": [
@@ -848,10 +817,10 @@
     "topics": ["Armed Conflicts"],
     "layers": {
       "Data layer": {
-        "Sensations": ["Visual Metaphor", "Feeling through colour"]
+        "Sensations": ["Visual Metaphor", "colour"]
       },
       "Story layer": {
-        "Sensations": ["Visual Metaphor", "Feeling through colour"],
+        "Sensations": ["Visual Metaphor", "colour"],
         "Narrative": ["Gradual reveal", "Real-Life Story in Focus"]
       }
     },
@@ -883,7 +852,8 @@
     "topics": ["Epidemics and Pandemics"],
     "layers": {
       "Data layer": {
-        "Sensations": ["Feeling through sound", "One Element, One Life"]
+        "Sensations": ["sound"],
+        "Narrative": ["One Element, One Life"]
       },
       "Graph layer": {
         "Narrative": [
