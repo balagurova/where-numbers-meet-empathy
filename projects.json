@@ -58,6 +58,29 @@
     "description": "TBA"
   },
   {
+    "title": "Those Who Did Not Cross",
+    "image": "/assets/images/those-who-did-not-cross.png",
+    "link": "https://archive.org/details/LeviWesterveldCROSS2000x940",
+    "authors": "Levi Westerveld",
+    "genres": ["Static image"],
+    "topics": ["Mass Displacement"],
+    "layers": {
+      "Data layer": {
+        "Sensations": ["colour"],
+        "Narrative": ["One Element, One Life"]
+      },
+      "Graph layer": {
+        "Narrative": [
+          "Real-Life Story in Focus",
+          "Human-Centric Language",
+          "Real-Life Story in Focus"
+        ]
+      }
+    },
+    "year": 2017,
+    "description": "TBA"
+  },
+  {
     "title": "U.S. Gun Deaths",
     "image": "/assets/images/us-gun-deaths.png",
     "link": "https://guns.periscopic.com/",
@@ -365,31 +388,8 @@
     "description": "TBA"
   },
   {
-    "title": "Those Who Did Not Cross",
-    "image": "/assets/images/those-who-did-not-cross.png",
-    "link": "https://archive.org/details/LeviWesterveldCROSS2000x940",
-    "authors": "Levi Westerveld",
-    "genres": ["Static image"],
-    "topics": ["Mass Displacement"],
-    "layers": {
-      "Data layer": {
-        "Sensations": ["colour"],
-        "Narrative": ["One Element, One Life"]
-      },
-      "Graph layer": {
-        "Narrative": [
-          "Real-Life Story in Focus",
-          "Human-Centric Language",
-          "Real-Life Story in Focus"
-        ]
-      }
-    },
-    "year": 2017,
-    "description": "TBA"
-  },
-  {
     "title": "Gun Deaths In America",
-    "image": "/assets/images/those-who-did-not-cross.png",
+    "image": "/assets/images/gun-death-in-america.png",
     "link": "https://fivethirtyeight.com/features/gun-deaths/",
     "authors": "Ben Casselman, Matthew Conlen, Reuben Fischer-Baum",
     "published in": "FiveThirtyEight",
@@ -662,7 +662,7 @@
   },
   {
     "title": "The Pace of Death",
-    "image": "/assets/images/at-the-epicenter.png",
+    "image": "/assets/images/the-pace-of-death.png",
     "link": "https://www.reuters.com/graphics/HEALTH-CORONAVIRUS/DEATHS/xlbpgobgapq/",
     "published in": "Reuters",
     "authors": "Manas Sharma, Simon Scarr, Gurman Bhatia, Cate Cadell, Jane Wardell",
@@ -845,7 +845,7 @@
   },
   {
     "title": "A Song of Crowns and Tears",
-    "image": "/assets/images/refugee-project.png",
+    "image": "/assets/images/a-song-of-crowns-and-tears.png",
     "link": "https://www.youtube.com/watch?v=DqfrOPs2pKM",
     "authors": "Simon Huwiler",
     "genres": ["Video"],

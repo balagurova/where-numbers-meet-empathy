@@ -91,9 +91,15 @@ d3.json('projects.json').then((data) => {
       .attr('src', (d) => d.image)
       .attr('alt', (d) => d.title);
 
-    cards.append('h3').text((d) => d.title);
+    const cardsContent = cards.append('div').attr('class', 'cardContent');
 
-    cards.each(function (d) {
+    cardsContent.append('h3').text((d) => d.title);
+    cardsContent
+      .append('p')
+      .attr('class', 'authors')
+      .text((d) => `by ${d.authors || d['published in']}`);
+
+    cardsContent.each(function (d) {
       const chipContainer = d3
         .select(this)
         .append('div')
