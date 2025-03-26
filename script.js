@@ -1,3 +1,6 @@
+const layerTypes = ['Data layer', 'Graph layer', 'Story layer'];
+const selectedLayers = new Set(layerTypes);
+
 d3.json('projects.json').then((data) => {
   const strategyCategories = [
     'Sensations',
@@ -26,21 +29,62 @@ d3.json('projects.json').then((data) => {
   });
 
   function applyFilters() {
-    const filteredProjects = data.filter((project) =>
-      Object.entries(selectedFilters).every(([strategy, techniques]) =>
-        Object.values(project.layers || {}).some((layer) => {
+    const filteredProjects = data.filter((project) => {
+      const projectLayers = Object.keys(project.layers || {});
+      const matchesLayer = projectLayers.some((layer) =>
+        selectedLayers.has(layer)
+      );
+      if (!matchesLayer) return false;
+
+      return Object.entries(selectedFilters).every(([strategy, techniques]) =>
+        Object.entries(project.layers || {}).some(([layerName, layer]) => {
+          if (!selectedLayers.has(layerName)) return false;
           const projectTechniques = layer[strategy] || [];
           return Array.from(techniques).every((technique) =>
             projectTechniques.includes(technique)
           );
         })
-      )
-    );
+      );
+    });
+
     renderProjects(filteredProjects);
   }
 
   for (const strategy in techniquesByStrategy) {
     techniquesByStrategy[strategy] = Array.from(techniquesByStrategy[strategy]);
+  }
+
+  function populateLayerFilter() {
+    const container = d3
+      .select('.grid')
+      .insert('div', ':first-child')
+      .attr('id', 'techniques-layers')
+      .attr('class', 'filter-list');
+
+    container.append('h3').text('Data Layer');
+
+    const list = container.append('ul');
+
+    layerTypes.forEach((layer) => {
+      list
+        .append('li')
+        .text(layer)
+        .attr('data-filter', layer)
+        .classed('active', true)
+        .on('click', function () {
+          const el = d3.select(this);
+          const isActive = el.classed('active');
+          el.classed('active', !isActive);
+
+          if (isActive) {
+            selectedLayers.delete(layer);
+          } else {
+            selectedLayers.add(layer);
+          }
+
+          applyFilters();
+        });
+    });
   }
 
   function populateColumns() {
@@ -148,7 +192,7 @@ d3.json('projects.json').then((data) => {
       .text('View Project');
   }
 
-  // Populate techniques and render all projects initially
+  populateLayerFilter();
   populateColumns();
   renderProjects(data);
 });

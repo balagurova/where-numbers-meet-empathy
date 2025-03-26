@@ -4,7 +4,7 @@
   --darkBeige: #e3dddd;
   --pink: #ffa3b2;
   --lightPink: #fadee5;
-  --serif: "calluna", serif;
+  --serif: 'calluna', serif;
   --sans: 'Overused Grotesk', sans-serif;
 }
 
@@ -83,7 +83,7 @@ footer {
   min-height: 25rem;
   background: linear-gradient(
     180deg,
-    rgba(255, 163, 178, 0.0) 0%,
+    rgba(255, 163, 178, 0) 0%,
     rgba(255, 163, 178, 0.93) 88.21%,
     #ffa3b2 100%
   );
@@ -296,7 +296,7 @@ footer {
 
 .close-icon {
   font-size: 48px !important;
-  font-variation-settings: "wght" 100;
+  font-variation-settings: 'wght' 100;
   color: var(--carrot);
   display: inline-block;
 }
@@ -335,7 +335,7 @@ footer {
 
 .button-with-brackets {
   position: relative;
-  font-family: "calluna", serif;
+  font-family: 'calluna', serif;
   font-style: italic;
   color: var(--carrot);
   display: inline-block;
@@ -344,7 +344,7 @@ footer {
 
 .button-with-brackets::before,
 .button-with-brackets::after {
-  content: "";
+  content: '';
   position: absolute;
   width: 16px;
   height: 32px;
@@ -367,10 +367,11 @@ footer {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 1rem;
   padding: 1rem;
-  margin: 0 15%;
+  margin: 0 7%;
+  margin-top: 48px;
 }
 
 .filter-list {
@@ -454,7 +455,7 @@ footer {
     50% 50% at 50% 50%,
     #ffa3b2 0%,
     rgba(255, 163, 178, 0.07) 88.21%,
-    rgba(255, 163, 178, 0.0) 100%
+    rgba(255, 163, 178, 0) 100%
   );
 }
 
