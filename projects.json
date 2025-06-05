@@ -1,5 +1,35 @@
 [
   {
+    "title": "The Birdsong of Sorrow above Ukraine",
+    "image": "/assets/images/birdsong-of-sorrow.png",
+    "link": "https://birdsong-of-sorrow-above-ukraine.github.io/",
+    "authors": "Anastasiia Balagurova",
+    "published in": "",
+    "genres": ["Interactive"],
+    "topics": ["Armed Conflicts"],
+    "layers": {
+      "Data layer": {
+        "Sensations": ["Handcrafted style"],
+        "Narrative": [
+          "Data with a name",
+          "One Element, One Life",
+          "Real-Life Story in Focus",
+          "Human-Centric Language"
+        ]
+      },
+      "Graph layer": {
+        "Sensations": ["Handcrafted style"],
+        "Narrative": ["Gradual reveal"]
+      },
+      "Story layer": {
+        "Sensations": ["Handcrafted style"],
+        "Narrative": ["Gradual reveal", "Human-Centric Language"]
+      }
+    },
+    "year": 2025,
+    "description": "TBA"
+  },
+  {
     "title": "Cut Short",
     "image": "/assets/images/cut-short.png",
     "link": "https://www.washingtonpost.com/health/interactive/2022/1-million-covid-deaths-us/?itid=ap_alyssafowers",

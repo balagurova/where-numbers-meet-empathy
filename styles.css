@@ -238,8 +238,8 @@ footer {
 .nav {
   display: flex;
   position: absolute;
-  top: 1%;
-  right: 0;
+  top: 2%;
+  right: 0.5%;
   padding-right: 1rem;
   flex-direction: row;
   justify-content: flex-end;
