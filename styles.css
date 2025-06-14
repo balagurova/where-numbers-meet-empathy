@@ -11,6 +11,7 @@
 html {
   scroll-behavior: smooth;
   cursor: none;
+  box-sizing: border-box;
 }
 
 body {
@@ -36,10 +37,6 @@ body::-webkit-scrollbar {
 
 ::selection {
   background: var(--beige);
-}
-
-h1 {
-  margin: 0;
 }
 
 h2 {
@@ -72,7 +69,7 @@ footer {
   color: var(--carrot);
   width: 100%;
   min-height: 50vh;
-  padding-bottom: 3rem;
+  padding-bottom: 0rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -128,12 +125,15 @@ footer {
 
 .site-title {
   display: flex;
-  font-size: 13.5rem;
+  font-size: 10rem;
   font-weight: 500;
-  justify-content: space-between;
+  justify-content: flex-start;
   letter-spacing: -0.02em;
-  line-height: 0.85;
-  align-items: center;
+  line-height: 0.9;
+  align-items: flex-end;
+  margin: 0;
+  padding-top: 2.5rem;
+  text-transform: uppercase;
 }
 
 .authors {
@@ -156,10 +156,9 @@ footer {
   letter-spacing: 0.01rem;
   font-weight: 400;
   line-height: 150%;
-  text-align: center;
-  padding: 1.5rem 2rem 0 2.5rem;
+  padding: 1.5rem 0rem 0.8rem 2rem;
   display: inline-block;
-  max-width: 350px;
+  max-width: 300px;
 }
 
 .flexCenter {
@@ -185,6 +184,10 @@ footer {
 .container {
   margin: 0 auto;
   padding: 0 2rem 0 0.5rem;
+}
+
+.header {
+  display: inline-block;
 }
 
 .home__header {
@@ -237,19 +240,14 @@ footer {
 
 .nav {
   display: flex;
+  width: -webkit-fill-available;
   position: absolute;
   top: 2%;
-  right: 0.5%;
+  left: 0%;
+  padding-left: 1rem;
   padding-right: 1rem;
   flex-direction: row;
-  justify-content: flex-end;
-  gap: 2rem;
-}
-
-.nav-left {
-  position: absolute;
-  top: 1%;
-  left: 1%;
+  justify-content: space-between;
 }
 
 .link {
@@ -339,7 +337,8 @@ footer {
   font-style: italic;
   color: var(--carrot);
   display: inline-block;
-  text-align: center;
+  margin-left: 0.7rem;
+  margin-right: 0.7rem;
 }
 
 .button-with-brackets::before,
@@ -511,7 +510,7 @@ footer {
   }
 
   .container {
-    margin: 0 auto;
+    margin: 0rem auto 0rem auto;
     padding: 0 1.2rem 0 0.5rem;
     height: 80vh;
     max-height: 700px;

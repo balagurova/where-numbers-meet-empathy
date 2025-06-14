@@ -61,7 +61,7 @@ d3.json('projects.json').then((data) => {
       .attr('id', 'techniques-layers')
       .attr('class', 'filter-list');
 
-    container.append('h3').text('Data Layers');
+    container.append('h3').text('Select data Layer(s)');
 
     const list = container.append('ul');
 
