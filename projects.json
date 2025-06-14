@@ -1,5 +1,45 @@
 [
   {
+    "title": "A Patchwork of Progress",
+    "image": "/assets/images/a-patchwork-of-progress.png",
+    "link": "https://www.gatesfoundation.org/maternal-child-health-data/",
+    "authors": "Giorgia Lupi",
+    "published in": "Gates Foundation",
+    "genres": ["Interactive"],
+    "topics": ["Public Health"],
+    "layers": {
+      "Data layer": {
+        "Sensations": [
+          "Handcrafted style",
+          "Texture",
+          "Visual Metaphor",
+          "Organic shape"
+        ],
+        "Narrative": ["Human-Centric Language"]
+      },
+      "Graph layer": {
+        "Sensations": [
+          "Handcrafted style",
+          "Visual Metaphor",
+          "Organic shape",
+          "Texture"
+        ],
+        "Narrative": ["Human-Centric Language"]
+      },
+      "Story layer": {
+        "Sensations": ["Handcrafted style", "Texture", "Visual Metaphor"],
+        "Narrative": [
+          "Gradual reveal",
+          "Human-Centric Language",
+          "Real-Life Story in Focus",
+          "Textual metaphor"
+        ]
+      }
+    },
+    "year": 2025,
+    "description": "TBA"
+  },
+  {
     "title": "The Birdsong of Sorrow above Ukraine",
     "image": "/assets/images/birdsong-of-sorrow.png",
     "link": "https://birdsong-of-sorrow-above-ukraine.github.io/",
